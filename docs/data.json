@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T14:23:06.866338-05:00",
-  "count": 94,
+  "updated": "2026-07-13T14:37:42.574183-05:00",
+  "count": 100,
   "products": [
     {
       "id": "prod-FqqrLQ",
@@ -31,6 +31,21 @@
       "brand": "Juicy Couture",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/819a657a_0f9b22cf-c858-4cf1-b302-ea770a5f2bcc_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-SPgdDw",
+      "name": "Baguette marrón monograma guess limones",
+      "price": 213.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e4007671_251764dd-e34b-42c7-af2d-652b52b5ee6c_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e4007671_251764dd-e34b-42c7-af2d-652b52b5ee6c_sm.webp"
       ]
     },
     {
@@ -556,6 +571,22 @@
       ]
     },
     {
+      "id": "prod-cYiiVg",
+      "name": "Cartera grande vainilla monograma",
+      "price": 198.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afc2f123_4ff1d12f-d0ba-43ab-9ec1-45e6c560b471_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afc2f123_4ff1d12f-d0ba-43ab-9ec1-45e6c560b471_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9cedd323_87140d0e-9fce-4632-b3fb-24aaec774968_sm.webp"
+      ]
+    },
+    {
       "id": "prod-VvAGqw",
       "name": "Cartera grande vainilla para laptop Tommy",
       "price": 198.0,
@@ -679,9 +710,24 @@
       ]
     },
     {
+      "id": "prod-vD451Q",
+      "name": "Dúo de necesseres cerezas azul",
+      "price": 123.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/41f862ea_c22a0012-8e44-4304-82a0-bc153e3b7cbe_sm.webp",
+      "categories": [
+        "Necesser"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/41f862ea_c22a0012-8e44-4304-82a0-bc153e3b7cbe_sm.webp"
+      ]
+    },
+    {
       "id": "prod-YAY7Aw",
       "name": "Dúo de necesseres cerezas Guess",
-      "price": 128.0,
+      "price": 123.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc3cc732_3c138c65-cb7c-4bd7-b093-362cd19a21a0_sm.webp",
@@ -751,6 +797,22 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9c3be765_88ea05d0-44e2-4462-a2ab-15012f5fc729_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-lVq9Hw",
+      "name": "Mochila jean Karl Lagerfeld",
+      "price": 273.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/eebe628c_f9c1708c-9833-4458-9a01-c42034c6302e_sm.webp",
+      "categories": [
+        "Mochilas"
+      ],
+      "brand": "Karl Lagerfeld",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/eebe628c_f9c1708c-9833-4458-9a01-c42034c6302e_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/22cdb450_00aef6b9-6f0c-4329-aba4-6bc46495d4a6_sm.webp"
       ]
     },
     {
@@ -934,6 +996,21 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8976df4a_03a54b54-aff4-4bd1-8d0f-ddcdea7d72de_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a9cce7c9_f0a1c7ee-6fb3-4fa8-9e91-b73ffb8e7294_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-kXT35w",
+      "name": "Morral negro Polo",
+      "price": 103.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bde3034b_feffb1d8-8ad4-41b7-9f43-d9cdbe8039c1_sm.webp",
+      "categories": [
+        "Liquidación"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bde3034b_feffb1d8-8ad4-41b7-9f43-d9cdbe8039c1_sm.webp"
       ]
     },
     {
@@ -1225,6 +1302,21 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/65129d14_e2c1cc3c-8dab-48c5-8b7c-5bb5575146d6_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-qHuo2A",
+      "name": "Necesser vainilla guess",
+      "price": 103.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/216bbf28_b8bb0a97-48ed-4c1e-84b9-3560a528fbd2_sm.webp",
+      "categories": [
+        "Necesser"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/216bbf28_b8bb0a97-48ed-4c1e-84b9-3560a528fbd2_sm.webp"
       ]
     },
     {
