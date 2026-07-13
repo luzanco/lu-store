@@ -37,9 +37,6 @@ jobs:
           WHATSAPP: ${{ secrets.WHATSAPP }}
         run: python build_catalog.py
 
-      - name: Generar posts para redes
-        run: python make_posts.py
-
       - name: Publicar cambios
         run: |
           git config user.name  "catalogo-bot"

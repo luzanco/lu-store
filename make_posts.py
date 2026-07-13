@@ -18,7 +18,10 @@ import config
 ROOT = Path(__file__).resolve().parent
 FONTS = ROOT / "assets" / "fonts"
 DOCS = ROOT / "docs"
-POSTS = DOCS / "posts"
+# Los posts se guardan en tu PC (carpeta en VENTA_CA), NO se publican en la web.
+POSTS = ROOT.parent / "Posts LU STORE"
+# Stock más actual: se lee del catálogo en línea; si no hay internet, del archivo local.
+LIVE_DATA = "https://luzanco.github.io/lu-store/data.json"
 
 W, H = 1080, 1920
 BG = (229, 225, 218)      # crema/gris cálido
@@ -203,8 +206,19 @@ def write_gallery(generated):
     print("Galería:", POSTS / "index.html")
 
 
+def load_data():
+    try:
+        r = requests.get(LIVE_DATA, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
+        r.raise_for_status()
+        print("Usando stock en línea (más actual).")
+        return r.json()
+    except Exception:
+        print("Sin internet: usando datos locales.")
+        return json.load(open(DOCS / "data.json", encoding="utf-8"))
+
+
 def main(only=None):
-    data = json.load(open(DOCS / "data.json", encoding="utf-8"))
+    data = load_data()
     prods = [p for p in data["products"] if p.get("images")]
     brands: dict[str, list] = {}
     for p in prods:
