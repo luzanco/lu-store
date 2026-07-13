@@ -1,7 +1,23 @@
 {
-  "updated": "2026-07-13T15:20:01.569521-05:00",
-  "count": 103,
+  "updated": "2026-07-13T15:42:29.167723-05:00",
+  "count": 104,
   "products": [
+    {
+      "id": "prod--nJI-A",
+      "name": "Baguette camel Steve Madden con cadena y charms",
+      "price": 163.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f014d8ae_3b4d1169-52dc-4c91-814d-2caf3126a2cc_sm.webp",
+      "categories": [
+        "Carteras Steve Madden"
+      ],
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f014d8ae_3b4d1169-52dc-4c91-814d-2caf3126a2cc_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dbd4e604_43df668a-d9d9-4c94-aefd-027f8a69324e_sm.webp"
+      ]
+    },
     {
       "id": "prod-FqqrLQ",
       "name": "Baguette gris monograma Guess 2 correas",
