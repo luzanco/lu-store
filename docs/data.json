@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T17:33:08.837487-05:00",
-  "count": 103,
+  "updated": "2026-07-13T18:29:23.734358-05:00",
+  "count": 100,
   "products": [
     {
       "id": "prod--nJI-A",
@@ -651,22 +651,6 @@
       ]
     },
     {
-      "id": "prod-ZGRPEg",
-      "name": "Cartera guess vainilla con camel 3 compartimentos",
-      "price": 218.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afae7017_993c2aab-91a2-4163-bf52-65bf5aaa8f7a_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afae7017_993c2aab-91a2-4163-bf52-65bf5aaa8f7a_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4c3e4539_0f6b35e4-0232-47af-a33b-805846457ef6_sm.webp"
-      ]
-    },
-    {
       "id": "prod-0d71IQ",
       "name": "Cartera marrón monograma guess",
       "price": 238.0,
@@ -922,22 +906,6 @@
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f4182d1_9e99562f-4b02-40e5-8801-e03563a7a6ff_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-fSlQDw",
-      "name": "Morral beige letras Guess con Strap",
-      "price": 201.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a37c68c6_fd3612cb-2836-4e1f-94e0-4212ed3defc6_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a37c68c6_fd3612cb-2836-4e1f-94e0-4212ed3defc6_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4d986f77_8897daa6-26d2-49e9-b1b5-c8462b6c7626_sm.webp"
       ]
     },
     {
@@ -1441,21 +1409,6 @@
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/baed00c4_ac268623-90c1-446f-9536-36eaf57b3f87_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-IEvR4w",
-      "name": "Tote crema guess con strap",
-      "price": 213.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4b812f67_1e7ab3c9-2e90-47ed-bbdf-906ad6279015_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4b812f67_1e7ab3c9-2e90-47ed-bbdf-906ad6279015_sm.webp"
       ]
     },
     {
