@@ -1,7 +1,23 @@
 {
-  "updated": "2026-07-13T14:14:57.305075-05:00",
-  "count": 94,
+  "updated": "2026-07-13T18:34:16.431274-05:00",
+  "count": 100,
   "products": [
+    {
+      "id": "prod--nJI-A",
+      "name": "Baguette camel Steve Madden con cadena y charms",
+      "price": 163.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f014d8ae_3b4d1169-52dc-4c91-814d-2caf3126a2cc_sm.webp",
+      "categories": [
+        "Carteras Steve Madden"
+      ],
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f014d8ae_3b4d1169-52dc-4c91-814d-2caf3126a2cc_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dbd4e604_43df668a-d9d9-4c94-aefd-027f8a69324e_sm.webp"
+      ]
+    },
     {
       "id": "prod-FqqrLQ",
       "name": "Baguette gris monograma Guess 2 correas",
@@ -31,6 +47,21 @@
       "brand": "Juicy Couture",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/819a657a_0f9b22cf-c858-4cf1-b302-ea770a5f2bcc_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-SPgdDw",
+      "name": "Baguette marrón monograma guess limones",
+      "price": 213.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e4007671_251764dd-e34b-42c7-af2d-652b52b5ee6c_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e4007671_251764dd-e34b-42c7-af2d-652b52b5ee6c_sm.webp"
       ]
     },
     {
@@ -384,6 +415,22 @@
       ]
     },
     {
+      "id": "prod-Aj4biQ",
+      "name": "Cartera grande con 2 compartimentos internos",
+      "price": 223.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7dfef17e_3de6b23a-b7cc-4181-a104-ad5a9c813fd5_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7dfef17e_3de6b23a-b7cc-4181-a104-ad5a9c813fd5_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9e495191_63019c74-0fb0-4d07-afbc-8b4f558490e1_sm.webp"
+      ]
+    },
+    {
       "id": "prod-lVKQoA",
       "name": "Cartera grande con cierre anne klein",
       "price": 173.0,
@@ -556,6 +603,22 @@
       ]
     },
     {
+      "id": "prod-cYiiVg",
+      "name": "Cartera grande vainilla monograma",
+      "price": 198.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afc2f123_4ff1d12f-d0ba-43ab-9ec1-45e6c560b471_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afc2f123_4ff1d12f-d0ba-43ab-9ec1-45e6c560b471_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9cedd323_87140d0e-9fce-4632-b3fb-24aaec774968_sm.webp"
+      ]
+    },
+    {
       "id": "prod-VvAGqw",
       "name": "Cartera grande vainilla para laptop Tommy",
       "price": 198.0,
@@ -588,22 +651,6 @@
       ]
     },
     {
-      "id": "prod-ZGRPEg",
-      "name": "Cartera guess vainilla con camel 3 compartimentos",
-      "price": 218.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afae7017_993c2aab-91a2-4163-bf52-65bf5aaa8f7a_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afae7017_993c2aab-91a2-4163-bf52-65bf5aaa8f7a_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4c3e4539_0f6b35e4-0232-47af-a33b-805846457ef6_sm.webp"
-      ]
-    },
-    {
       "id": "prod-0d71IQ",
       "name": "Cartera marrón monograma guess",
       "price": 238.0,
@@ -631,6 +678,21 @@
       "brand": "Nautica",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c54c664e_26cc3b8a-d016-4463-bf73-c12baa5f1f4f_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-IJS-CA",
+      "name": "Cartera rosa Steve Madden con peluche vaquita",
+      "price": 163.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f06a0569_bc679b2c-6d8f-4f24-83c8-87ec6dbeada2_sm.webp",
+      "categories": [
+        "Carteras Steve Madden"
+      ],
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f06a0569_bc679b2c-6d8f-4f24-83c8-87ec6dbeada2_sm.webp"
       ]
     },
     {
@@ -679,9 +741,24 @@
       ]
     },
     {
+      "id": "prod-vD451Q",
+      "name": "Dúo de necesseres cerezas azul",
+      "price": 123.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/41f862ea_c22a0012-8e44-4304-82a0-bc153e3b7cbe_sm.webp",
+      "categories": [
+        "Necesser"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/41f862ea_c22a0012-8e44-4304-82a0-bc153e3b7cbe_sm.webp"
+      ]
+    },
+    {
       "id": "prod-YAY7Aw",
       "name": "Dúo de necesseres cerezas Guess",
-      "price": 128.0,
+      "price": 123.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc3cc732_3c138c65-cb7c-4bd7-b093-362cd19a21a0_sm.webp",
@@ -754,6 +831,22 @@
       ]
     },
     {
+      "id": "prod-lVq9Hw",
+      "name": "Mochila jean Karl Lagerfeld",
+      "price": 273.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/eebe628c_f9c1708c-9833-4458-9a01-c42034c6302e_sm.webp",
+      "categories": [
+        "Mochilas"
+      ],
+      "brand": "Karl Lagerfeld",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/eebe628c_f9c1708c-9833-4458-9a01-c42034c6302e_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/22cdb450_00aef6b9-6f0c-4329-aba4-6bc46495d4a6_sm.webp"
+      ]
+    },
+    {
       "id": "prod-jBzdLw",
       "name": "Mochila negro con franja Tommy",
       "price": 193.0,
@@ -816,19 +909,19 @@
       ]
     },
     {
-      "id": "prod-fSlQDw",
-      "name": "Morral beige letras Guess con Strap",
-      "price": 201.0,
+      "id": "prod-rF-nXg",
+      "name": "Morral blanco con cadena Steve Madden",
+      "price": 163.0,
       "status": "Disponible",
       "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a37c68c6_fd3612cb-2836-4e1f-94e0-4212ed3defc6_sm.webp",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d1041c0c_c5a99508-711a-44d6-909b-49bc560941a1_sm.webp",
       "categories": [
-        "Carteras Guess"
+        "Carteras Steve Madden"
       ],
-      "brand": "Guess",
+      "brand": "Steve Madden",
       "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a37c68c6_fd3612cb-2836-4e1f-94e0-4212ed3defc6_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4d986f77_8897daa6-26d2-49e9-b1b5-c8462b6c7626_sm.webp"
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d1041c0c_c5a99508-711a-44d6-909b-49bc560941a1_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/53fa31b5_06cb7815-7aae-4a4c-9fe2-ec74b5eac23b_sm.webp"
       ]
     },
     {
@@ -934,6 +1027,21 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8976df4a_03a54b54-aff4-4bd1-8d0f-ddcdea7d72de_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a9cce7c9_f0a1c7ee-6fb3-4fa8-9e91-b73ffb8e7294_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-kXT35w",
+      "name": "Morral negro Polo",
+      "price": 103.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bde3034b_feffb1d8-8ad4-41b7-9f43-d9cdbe8039c1_sm.webp",
+      "categories": [
+        "Liquidación"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bde3034b_feffb1d8-8ad4-41b7-9f43-d9cdbe8039c1_sm.webp"
       ]
     },
     {
@@ -1228,6 +1336,21 @@
       ]
     },
     {
+      "id": "prod-qHuo2A",
+      "name": "Necesser vainilla guess",
+      "price": 103.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/216bbf28_b8bb0a97-48ed-4c1e-84b9-3560a528fbd2_sm.webp",
+      "categories": [
+        "Necesser"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/216bbf28_b8bb0a97-48ed-4c1e-84b9-3560a528fbd2_sm.webp"
+      ]
+    },
+    {
       "id": "prod-31rUDA",
       "name": "Necesser vainilla limons guess",
       "price": 103.0,
@@ -1286,21 +1409,6 @@
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/baed00c4_ac268623-90c1-446f-9536-36eaf57b3f87_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-IEvR4w",
-      "name": "Tote crema guess con strap",
-      "price": 213.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4b812f67_1e7ab3c9-2e90-47ed-bbdf-906ad6279015_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4b812f67_1e7ab3c9-2e90-47ed-bbdf-906ad6279015_sm.webp"
       ]
     },
     {
@@ -1444,21 +1552,6 @@
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/78f3fbf0_549652dd-dcd8-4eb5-9e47-30241e8b2b95_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d4cdd126_e8b3f84d-2d68-40b5-97c8-3407a61b5efc_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c5c8c30b_b847e13d-50e9-4559-8338-c7985e79578a_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-cSzIbA",
-      "name": "Vitamina K2 y K3",
-      "price": 78.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9ead435f_75b2ee73-06bb-466e-aa04-5522b400d9fc_sm.webp",
-      "categories": [
-        "Vitaminas"
-      ],
-      "brand": "Otras marcas",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9ead435f_75b2ee73-06bb-466e-aa04-5522b400d9fc_sm.webp"
       ]
     }
   ]
