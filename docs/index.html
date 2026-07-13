@@ -1,0 +1,1196 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LU STORE</title>
+<style>
+  :root {
+    --accent: #a6224d;
+    --accent-ink: #ffffff;
+    --bg:      #f7f4f1;
+    --surface: #ffffff;
+    --ink:     #241f1e;
+    --muted:   #8a807b;
+    --line:    #e9e2dc;
+    --chip:    #efeae5;
+    --ok:   #1f8f57;
+    --pre:  #2563c4;
+    --soon: #c07a12;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#17140f; --surface:#211c18; --ink:#f2ede8; --muted:#a89c93; --line:#322a24; --chip:#2b241f; }
+  }
+  :root[data-theme="dark"]  { --bg:#17140f; --surface:#211c18; --ink:#f2ede8; --muted:#a89c93; --line:#322a24; --chip:#2b241f; }
+  :root[data-theme="light"] { --bg:#f7f4f1; --surface:#ffffff; --ink:#241f1e; --muted:#8a807b; --line:#e9e2dc; --chip:#efeae5; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--ink); -webkit-font-smoothing: antialiased;
+  }
+  header {
+    background: var(--accent); color: var(--accent-ink);
+    padding: 20px 16px; text-align: center;
+  }
+  .brand {
+    font-family: "Hoefler Text", Georgia, "Times New Roman", serif;
+    font-size: 1.7rem; font-weight: 600; letter-spacing: .04em; text-wrap: balance;
+  }
+  .tagline { font-size: .7rem; text-transform: uppercase; letter-spacing: .22em; opacity: .9; margin-top: 6px; }
+
+  .filters {
+    position: sticky; top: 0; z-index: 20; background: var(--bg);
+    border-bottom: 1px solid var(--line); padding: 10px 12px;
+    display: flex; flex-direction: column; gap: 8px; max-width: 1120px; margin: 0 auto;
+  }
+  .filters .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .search {
+    flex: 1 1 100%; min-width: 0; padding: 9px 12px; font-size: .9rem;
+    border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink);
+  }
+  select {
+    padding: 8px 10px; font-size: .82rem; border: 1px solid var(--line);
+    border-radius: 10px; background: var(--surface); color: var(--ink); flex: 1 1 46%;
+  }
+  .chip {
+    font-size: .74rem; font-weight: 600; padding: 6px 12px; border-radius: 999px;
+    border: 1px solid var(--line); background: var(--chip); color: var(--ink); cursor: pointer;
+  }
+  .chip.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .count { font-size: .74rem; color: var(--muted); padding: 0 2px; }
+
+  .grid {
+    display: grid; gap: 14px; padding: 14px;
+    grid-template-columns: repeat(2, 1fr); max-width: 1120px; margin: 0 auto;
+  }
+  @media (min-width: 640px) { .grid { grid-template-columns: repeat(3, 1fr); gap: 18px; } }
+  @media (min-width: 960px) { .grid { grid-template-columns: repeat(4, 1fr); } }
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    overflow: hidden; display: flex; flex-direction: column;
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  @media (hover: hover) { .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.10); } }
+  .imgwrap { position: relative; aspect-ratio: 4/5; background: var(--line); }
+  .imgwrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .badge {
+    position: absolute; top: 9px; left: 9px; font-size: .62rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; padding: 3px 9px; border-radius: 999px; color: #fff;
+  }
+  .badge.ok { background: var(--ok); } .badge.pre { background: var(--pre); } .badge.soon { background: var(--soon); }
+  .body { padding: 10px 12px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .name {
+    font-size: .82rem; font-weight: 500; line-height: 1.3;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.15em;
+  }
+  .price { font-size: 1.12rem; font-weight: 700; color: var(--accent); margin-top: auto; font-variant-numeric: tabular-nums; }
+  .empty { text-align: center; color: var(--muted); padding: 40px 16px; display: none; }
+  footer { text-align: center; font-size: .72rem; color: var(--muted); padding: 26px 16px 40px; border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+  <header>
+    <div class="brand">LU STORE</div>
+    <div class="tagline">Originales USA · Carteras y accesorios</div>
+  </header>
+
+  <div class="filters">
+    <input id="q" class="search" type="search" placeholder="Buscar producto…" autocomplete="off">
+    <div class="row">
+      <select id="cat">
+        <option value="">Todas las categorías</option>
+        <option value="Billeteras">Billeteras</option><option value="Carteras Guess">Carteras Guess</option><option value="Carteras Juicy Couture">Carteras Juicy Couture</option><option value="Carteras Nautica">Carteras Nautica</option><option value="Carteras Steve Madden">Carteras Steve Madden</option><option value="Carteras Tommy Hilfiguer">Carteras Tommy Hilfiguer</option><option value="Liquidación">Liquidación</option><option value="Mochilas">Mochilas</option><option value="Muñequeras">Muñequeras</option><option value="Necesser">Necesser</option><option value="Packs">Packs</option><option value="Vitaminas">Vitaminas</option>
+      </select>
+      <select id="brand">
+        <option value="">Todas las marcas</option>
+        <option value="Guess">Guess</option><option value="Juicy Couture">Juicy Couture</option><option value="Nautica">Nautica</option><option value="Otras marcas">Otras marcas</option><option value="Steve Madden">Steve Madden</option><option value="Tommy Hilfiger">Tommy Hilfiger</option>
+      </select>
+    </div>
+    <div class="row" id="statusChips">
+      <span class="chip active" data-status="">Todos</span>
+      <span class="chip" data-status="Disponible">Disponible</span>
+    </div>
+    <div class="count"><span id="count">86</span> productos · Actualizado 13/07/2026 01:49 PM</div>
+  </div>
+
+  <main class="grid" id="grid">
+    
+    <article class="card" data-name="baguette juicy de fresa" data-status="Disponible"
+             data-brand="Juicy Couture" data-cats="Carteras Juicy Couture">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/819a657a_0f9b22cf-c858-4cf1-b302-ea770a5f2bcc_sm.webp" alt="Baguette juicy de fresa" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Baguette juicy de fresa</div>
+        <div class="price">S/ 128</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="baguette negro guess con cadena" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/64efd259_46f3819c-62f7-4dba-b0f5-7993dd5d6676_sm.webp" alt="Baguette negro guess con cadena" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Baguette negro guess con cadena</div>
+        <div class="price">S/ 213</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="baguette negro monograma tommy pequeño" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/89a7fbcf_7fa63cbb-83dc-4cbf-ad58-8ab5f12a3e17_sm.webp" alt="Baguette negro monograma tommy pequeño" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Baguette negro monograma tommy pequeño</div>
+        <div class="price">S/ 128</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="baguette pequeño beige monograma" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6ae0f322_6e8cff25-9486-4e7b-a13b-3c3f4a16b8e4_sm.webp" alt="Baguette pequeño beige monograma" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Baguette pequeño beige monograma</div>
+        <div class="price">S/ 128</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="baguette roja guess doble correa" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d3889fe5_53c5ed99-1b21-4460-bf87-e1524220e146_sm.webp" alt="Baguette roja guess doble correa" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Baguette roja guess doble correa</div>
+        <div class="price">S/ 223</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="baguette rosa guess dobles correa" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ff1441ee_1429e0d5-1386-4e2a-a4d0-e823a1d80fbb_sm.webp" alt="Baguette rosa Guess dobles correa" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Baguette rosa Guess dobles correa</div>
+        <div class="price">S/ 213</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="baguette tommy marrón monograma" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a43b7cd7_16bf489c-1735-4f86-b5f4-843fe2e8e853_sm.webp" alt="Baguette tommy marrón monograma" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Baguette tommy marrón monograma</div>
+        <div class="price">S/ 143</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="baúl vainilla con cerezas rosas juicy" data-status="Disponible"
+             data-brand="Juicy Couture" data-cats="Carteras Juicy Couture">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0c87cf46_2195ca39-9abb-4b26-b3d4-7033d156b455_sm.webp" alt="Baúl vainilla con cerezas rosas Juicy" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Baúl vainilla con cerezas rosas Juicy</div>
+        <div class="price">S/ 173</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="billetera completa grande fresas guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Billeteras">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/31f013a3_afdaefe7-7711-49cd-8f9b-c58452dbbaa9_sm.webp" alt="Billetera completa grande fresas guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Billetera completa grande fresas guess</div>
+        <div class="price">S/ 138</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="billetera grande monograma colores guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Billeteras">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/fb483919_4c0cace6-6081-42ba-99c6-ba8804182c64_sm.webp" alt="Billetera grande monograma colores Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Billetera grande monograma colores Guess</div>
+        <div class="price">S/ 138</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="billetera negra guess sobre" data-status="Disponible"
+             data-brand="Guess" data-cats="Billeteras">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/df8e038d_56a146ac-4b2e-454d-949b-f1d3a9b3b21c_sm.webp" alt="Billetera negra Guess sobre" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Billetera negra Guess sobre</div>
+        <div class="price">S/ 113</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="billetera negro monograma tommy" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Billeteras">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/5d27c165_5e8ba2dd-dab9-443e-99b1-8d84ae2972ab_sm.webp" alt="Billetera negro monograma Tommy" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Billetera negro monograma Tommy</div>
+        <div class="price">S/ 103</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="billetera sobre camel tommy" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Billeteras">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b8e882ed_8f45a964-9d13-4e50-bb1b-b6d4b56865fb_sm.webp" alt="Billetera sobre camel Tommy" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Billetera sobre camel Tommy</div>
+        <div class="price">S/ 113</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="billetera sobre fresas guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Billeteras">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2d91a529_c95a726d-74ae-4535-bf69-f3e98133b473_sm.webp" alt="Billetera sobre fresas Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Billetera sobre fresas Guess</div>
+        <div class="price">S/ 113</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera azul monograma steve madden" data-status="Disponible"
+             data-brand="Steve Madden" data-cats="Carteras Steve Madden">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e73a659a_d5b32c4a-13eb-40b1-8c91-2ee23b51705b_sm.webp" alt="Cartera azul monograma Steve Madden" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera azul monograma Steve Madden</div>
+        <div class="price">S/ 138</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera beige monograma doble correa" data-status="Disponible"
+             data-brand="Steve Madden" data-cats="Carteras Steve Madden">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7fc7c10f_009f7841-ebd1-43e2-87da-751058085a52_sm.webp" alt="Cartera beige monograma doble correa" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera beige monograma doble correa</div>
+        <div class="price">S/ 173</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera beige steve madden con cereza" data-status="Disponible"
+             data-brand="Steve Madden" data-cats="Carteras Steve Madden">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a259f1b3_e06e9a78-02f0-4625-84c2-28f486d81d11_sm.webp" alt="Cartera beige Steve Madden con cereza" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera beige Steve Madden con cereza</div>
+        <div class="price">S/ 173</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera blanco monograma con cereza" data-status="Disponible"
+             data-brand="Steve Madden" data-cats="Carteras Steve Madden">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/46f28ec0_27c6ca07-aa21-4a39-86ab-fd48c414929f_sm.webp" alt="Cartera blanco monograma con cereza" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera blanco monograma con cereza</div>
+        <div class="price">S/ 173</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera elegante grande marrón guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2958af33_8650b54b-7024-4e4f-a5dd-a9d903b0b42b_sm.webp" alt="Cartera elegante grande marrón Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera elegante grande marrón Guess</div>
+        <div class="price">S/ 273</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande azul monograma guess 3 compartimentos" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0126a544_8684ffe6-c279-4511-93d2-45481f5e781e_sm.webp" alt="Cartera grande azul monograma Guess 3 compartimentos" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande azul monograma Guess 3 compartimentos</div>
+        <div class="price">S/ 253</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande celeste guess 3 compartimentos" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d5de9cbb_322d2edd-345c-48a2-9c78-cfe34e030e28_sm.webp" alt="Cartera grande celeste guess 3 compartimentos" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande celeste guess 3 compartimentos</div>
+        <div class="price">S/ 248</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande guess 3 compartimentos" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9f4e2081_93b28e2b-e009-4c06-bbf4-f051937426bf_sm.webp" alt="Cartera grande guess 3 compartimentos" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande guess 3 compartimentos</div>
+        <div class="price">S/ 248</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande guess 3 compartimentos negro" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0693cec9_df02b796-b465-42c0-828d-3040ed83082b_sm.webp" alt="Cartera grande guess 3 compartimentos negro" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande guess 3 compartimentos negro</div>
+        <div class="price">S/ 248</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande laptop guess mas cartera pequeña" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1ec95c8_945130e2-ab1a-4192-9881-47ea23f25b9b_sm.webp" alt="Cartera grande laptop guess mas cartera pequeña" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande laptop guess mas cartera pequeña</div>
+        <div class="price">S/ 243</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande marrón monograma guess con cartera adicional" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/cbbc1ac6_e6e22845-ed63-4a88-826b-105f8b1f441d_sm.webp" alt="Cartera grande marrón monograma guess con cartera adicional" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande marrón monograma guess con cartera adicional</div>
+        <div class="price">S/ 243</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande negro guess 3 compartimentos" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9c967f15_ed5e319c-fb6b-484c-90d2-e39affc4b34e_sm.webp" alt="Cartera grande negro guess 3 compartimentos" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande negro guess 3 compartimentos</div>
+        <div class="price">S/ 248</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande negro guess con cartera adicional" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/612db4c6_27d6cab3-832e-4951-a37f-e67f493ada55_sm.webp" alt="Cartera grande negro guess con cartera adicional" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande negro guess con cartera adicional</div>
+        <div class="price">S/ 243</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande negro guess con placa" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e88b4317_f4e19f15-5747-46aa-a3a6-c823e8214302_sm.webp" alt="Cartera grande negro guess con placa" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande negro guess con placa</div>
+        <div class="price">S/ 263</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande para laptop tommy 3 compartimentos" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b2953a44_1e0b68d4-fda1-46cf-a293-f0811e27fbbe_sm.webp" alt="Cartera grande para laptop Tommy 3 compartimentos" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande para laptop Tommy 3 compartimentos</div>
+        <div class="price">S/ 203</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande rosa monograma guess 3 compartimentos" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/fbfae75a_858e9e7c-fa40-436d-9cc5-42fdf1c2a682_sm.webp" alt="Cartera grande rosa monograma Guess 3 compartimentos" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande rosa monograma Guess 3 compartimentos</div>
+        <div class="price">S/ 253</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande vainilla guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0ac48081_ffcdde3f-599e-4f1b-b8aa-d638f2758a80_sm.webp" alt="Cartera grande vainilla Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande vainilla Guess</div>
+        <div class="price">S/ 238</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera grande vainilla para laptop tommy" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/319caf70_e0100de5-ef58-4e02-b0bf-0133e6181cc9_sm.webp" alt="Cartera grande vainilla para laptop Tommy" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera grande vainilla para laptop Tommy</div>
+        <div class="price">S/ 198</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera guess con franja" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/85b439c1_70b9f366-0b71-4345-b7ca-15f5d53f6472_sm.webp" alt="Cartera Guess con franja" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera Guess con franja</div>
+        <div class="price">S/ 258</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera guess vainilla con camel 3 compartimentos" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afae7017_993c2aab-91a2-4163-bf52-65bf5aaa8f7a_sm.webp" alt="Cartera guess vainilla con camel 3 compartimentos" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera guess vainilla con camel 3 compartimentos</div>
+        <div class="price">S/ 218</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera marrón monograma guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/44027cbc_6cf6f8aa-f22c-4b85-8dea-ecc8360b01c1_sm.webp" alt="Cartera marrón monograma guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera marrón monograma guess</div>
+        <div class="price">S/ 238</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="cartera roja nautica monograma con strap" data-status="Disponible"
+             data-brand="Nautica" data-cats="Carteras Nautica">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c54c664e_26cc3b8a-d016-4463-bf73-c12baa5f1f4f_sm.webp" alt="Cartera roja nautica monograma con strap" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Cartera roja nautica monograma con strap</div>
+        <div class="price">S/ 123</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="duo de necesser guess monograma maquillaje" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c81117ff_659580f5-b525-46c3-ae7c-772d41db65b5_sm.webp" alt="Duo de necesser Guess monograma maquillaje" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Duo de necesser Guess monograma maquillaje</div>
+        <div class="price">S/ 123</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="dúo de monederos nautica rojo" data-status="Disponible"
+             data-brand="Nautica" data-cats="Billeteras">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e6b8d9c0_82ef544b-0859-47c3-8490-0cd2b22f2b09_sm.webp" alt="Dúo de monederos Nautica Rojo" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Dúo de monederos Nautica Rojo</div>
+        <div class="price">S/ 91</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="dúo de necesser amarillo guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d27b1680_057f41a7-f500-4a79-b7d1-cf66f90e7ab2_sm.webp" alt="Dúo de necesser amarillo Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Dúo de necesser amarillo Guess</div>
+        <div class="price">S/ 123</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="dúo de necesseres cerezas guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc3cc732_3c138c65-cb7c-4bd7-b093-362cd19a21a0_sm.webp" alt="Dúo de necesseres cerezas Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Dúo de necesseres cerezas Guess</div>
+        <div class="price">S/ 128</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="dúo de necesseres guess raffia" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/03e599e5_01315233-475d-49eb-9ee2-0c6f638ed5aa_sm.webp" alt="Dúo de necesseres Guess Raffia" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Dúo de necesseres Guess Raffia</div>
+        <div class="price">S/ 123</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="dúo de necesseres negro monograma" data-status="Disponible"
+             data-brand="Otras marcas" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/652a15f6_9b0d1570-e781-49b6-8b9b-997eae901cec_sm.webp" alt="Dúo de necesseres negro monograma" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Dúo de necesseres negro monograma</div>
+        <div class="price">S/ 118</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="guess bolso hombro cerezas cuadros rosa blanco pvc mujer" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d541db8c_cc88eec8-9b4a-4eea-a2f9-7d0af649d58d_sm.webp" alt="Guess Bolso Hombro Cerezas Cuadros Rosa Blanco PVC Mujer" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Guess Bolso Hombro Cerezas Cuadros Rosa Blanco PVC Mujer</div>
+        <div class="price">S/ 218</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="mochila cerezas guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Mochilas">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9c3be765_88ea05d0-44e2-4462-a2ab-15012f5fc729_sm.webp" alt="Mochila cerezas guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Mochila cerezas guess</div>
+        <div class="price">S/ 248</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="mochila negro con franja tommy" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Mochilas">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6c8dad34_c4d84c9a-8a5b-49fb-8d80-efa685776426_sm.webp" alt="Mochila negro con franja Tommy" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Mochila negro con franja Tommy</div>
+        <div class="price">S/ 193</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="mochila rosa monograma guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Liquidación">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8a5e4c28_3d812b11-921b-42ef-8899-32dd179e57e1_sm.webp" alt="Mochila rosa monograma Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Mochila rosa monograma Guess</div>
+        <div class="price">S/ 223</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="mochila tommy hilfiguer azul marino monograma" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Mochilas">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/94a09b8f_ac7e069b-f621-4539-94a5-b3ada15fc19a_sm.webp" alt="Mochila Tommy Hilfiguer azul marino monograma" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Mochila Tommy Hilfiguer azul marino monograma</div>
+        <div class="price">S/ 203</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral beige letras guess con strap" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a37c68c6_fd3612cb-2836-4e1f-94e0-4212ed3defc6_sm.webp" alt="Morral beige letras Guess con Strap" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral beige letras Guess con Strap</div>
+        <div class="price">S/ 201</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral floreado" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a02adc70_d2edd7a3-da5f-4e73-858b-f2cd641870f5_sm.webp" alt="Morral floreado" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral floreado</div>
+        <div class="price">S/ 193</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral floreado guess" data-status="Disponible"
+             data-brand="Guess" data-cats="">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/be28604a_e77efd11-e34e-4269-a16e-4ad124ae9a71_sm.webp" alt="Morral floreado Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral floreado Guess</div>
+        <div class="price">S/ 193</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral guess monograma fresas" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b895d9d7_c9ce371a-7834-47eb-bc3b-577b365ecd17_sm.webp" alt="Morral Guess monograma fresas" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral Guess monograma fresas</div>
+        <div class="price">S/ 193</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral marrón nautica con strap" data-status="Disponible"
+             data-brand="Nautica" data-cats="Carteras Nautica">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dea23807_bbef1e6d-fb39-4979-844a-76efcb64079a_sm.webp" alt="Morral marrón Nautica con strap" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral marrón Nautica con strap</div>
+        <div class="price">S/ 123</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral monograma colores guess mediano" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6d167d52_af7756ad-03cd-485d-a0fc-7f7c304deda6_sm.webp" alt="Morral monograma colores Guess mediano" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral monograma colores Guess mediano</div>
+        <div class="price">S/ 193</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral negro monograma steve madden" data-status="Disponible"
+             data-brand="Steve Madden" data-cats="Carteras Steve Madden">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8976df4a_03a54b54-aff4-4bd1-8d0f-ddcdea7d72de_sm.webp" alt="Morral negro monograma Steve Madden" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral negro monograma Steve Madden</div>
+        <div class="price">S/ 138</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral negro tommy strap" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4b09699a_48e04c7d-9f1a-4e03-a0d9-78a4a49ad0a2_sm.webp" alt="Morral negro tommy strap" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral negro tommy strap</div>
+        <div class="price">S/ 138</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral rojo strap nautica" data-status="Disponible"
+             data-brand="Nautica" data-cats="Carteras Nautica">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6125c784_a2073d28-df0f-4044-a6b8-d1191711b3d8_sm.webp" alt="Morral rojo strap Nautica" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral rojo strap Nautica</div>
+        <div class="price">S/ 123</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral rojo tommy strap" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/3fa1212f_c99b8523-b3f5-46a2-9a63-6e988e3236ee_sm.webp" alt="Morral rojo tommy strap" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral rojo tommy strap</div>
+        <div class="price">S/ 131</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="morral tommy 3 colores" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/56aa1989_7cfd5911-6e96-46ca-b960-fcc74002a1d2_sm.webp" alt="Morral tommy 3 colores" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Morral tommy 3 colores</div>
+        <div class="price">S/ 138</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="muñequera beige monograma para celular tommy" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Muñequeras">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ddb1910f_034b4778-f982-45ab-81a0-af024962462a_sm.webp" alt="Muñequera beige monograma para celular tommy" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Muñequera beige monograma para celular tommy</div>
+        <div class="price">S/ 108</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="muñequera rojo monograma nautica con monedero" data-status="Disponible"
+             data-brand="Nautica" data-cats="Muñequeras">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2c6af86c_9e6ba642-1f9a-4211-b20f-3b978c3a394b_sm.webp" alt="Muñequera rojo monograma Nautica con monedero" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Muñequera rojo monograma Nautica con monedero</div>
+        <div class="price">S/ 78</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="nautica bolso cruzado mujer blanco multicolor logo n bandolera ajustable" data-status="Disponible"
+             data-brand="Nautica" data-cats="Carteras Nautica">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/447d430e_8539d166-b429-496c-aa26-7a4d4bb015a4_sm.webp" alt="Nautica Bolso Cruzado Mujer Blanco Multicolor Logo N Bandolera Ajustable" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Nautica Bolso Cruzado Mujer Blanco Multicolor Logo N Bandolera Ajustable</div>
+        <div class="price">S/ 148</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser dos cierres gris guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4a69a91a_2e80bef9-5aaf-4609-a822-1eacce0d6f59_sm.webp" alt="Necesser dos cierres gris Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser dos cierres gris Guess</div>
+        <div class="price">S/ 108</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser floreado guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/14985223_36c7dcf0-7ef9-43cf-b87a-6b6fb924740d_sm.webp" alt="Necesser floreado Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser floreado Guess</div>
+        <div class="price">S/ 103</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser grande gris guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0303862c_71a4f2a9-e1c1-42cb-bc49-9f243ce8ea68_sm.webp" alt="Necesser grande gris Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser grande gris Guess</div>
+        <div class="price">S/ 123</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser grande rosa monograma flores guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/1aa71412_a4db88df-6353-4544-8e31-2956b8fa673e_sm.webp" alt="Necesser grande rosa monograma flores Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser grande rosa monograma flores Guess</div>
+        <div class="price">S/ 123</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser grande rosa monograma guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7a998849_26677e98-02b9-4aef-89a5-ece240cd9f8c_sm.webp" alt="Necesser grande rosa monograma Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser grande rosa monograma Guess</div>
+        <div class="price">S/ 118</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser guess pequeño negro monograma" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/73ada1f9_4035b8f5-2dbb-4ae7-b973-1cfe9004f9f3_sm.webp" alt="Necesser guess pequeño negro monograma" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser guess pequeño negro monograma</div>
+        <div class="price">S/ 103</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser marrón monograma floreado" data-status="Disponible"
+             data-brand="Otras marcas" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e3ef75e1_d98bd708-ca26-423a-9240-848d67b3ea80_sm.webp" alt="Necesser marrón monograma floreado" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser marrón monograma floreado</div>
+        <div class="price">S/ 103</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser negro dos compartimentos unisex" data-status="Disponible"
+             data-brand="Otras marcas" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/217e6b70_1f46476e-4806-48b7-bfaa-b4b98f2485bf_sm.webp" alt="Necesser negro dos compartimentos unisex" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser negro dos compartimentos unisex</div>
+        <div class="price">S/ 128</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser para caballero con asa guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/48674d13_bb50d52e-901a-4022-93b4-cd7c961a9e5c_sm.webp" alt="Necesser para caballero con asa guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser para caballero con asa guess</div>
+        <div class="price">S/ 93</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser rosa guess grande" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6801e317_49040cdb-9186-4432-853f-e36a5fbcb8c3_sm.webp" alt="Necesser rosa Guess grande" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser rosa Guess grande</div>
+        <div class="price">S/ 108</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser rosa monograma mediano" data-status="Disponible"
+             data-brand="Otras marcas" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1c64ebb_94eadf34-7f7a-4005-9fa9-1de9d937a6a3_sm.webp" alt="Necesser rosa monograma mediano" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser rosa monograma mediano</div>
+        <div class="price">S/ 103</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser rosado monograma guess grande" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/65129d14_e2c1cc3c-8dab-48c5-8b7c-5bb5575146d6_sm.webp" alt="Necesser rosado monograma Guess grande" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser rosado monograma Guess grande</div>
+        <div class="price">S/ 111</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="necesser vainilla limons guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Necesser">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/685dc254_abf4749a-c4dc-4dd3-a069-7c0a470bf792_sm.webp" alt="Necesser vainilla limons guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Necesser vainilla limons guess</div>
+        <div class="price">S/ 103</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="pack morrales guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Packs">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/86fbbf29_768c9075-b908-457f-a908-626f23c83d0b_sm.webp" alt="Pack morrales guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Pack morrales guess</div>
+        <div class="price">S/ 523</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="steve madden bolso bandolera blanco cuero sintético logo grabado cadena mujer" data-status="Disponible"
+             data-brand="Steve Madden" data-cats="Carteras Steve Madden">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/97ae22a4_6e1986ef-9ace-4b1a-b6f8-473fa723fb4e_sm.webp" alt="Steve Madden Bolso Bandolera Blanco Cuero Sintético Logo Grabado Cadena Mujer" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Steve Madden Bolso Bandolera Blanco Cuero Sintético Logo Grabado Cadena Mujer</div>
+        <div class="price">S/ 148</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="tote azul monograma pequelo tommy" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/baed00c4_ac268623-90c1-446f-9536-36eaf57b3f87_sm.webp" alt="Tote azul monograma pequelo Tommy" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Tote azul monograma pequelo Tommy</div>
+        <div class="price">S/ 138</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="tote crema guess con strap" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4b812f67_1e7ab3c9-2e90-47ed-bbdf-906ad6279015_sm.webp" alt="Tote crema guess con strap" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Tote crema guess con strap</div>
+        <div class="price">S/ 213</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="tote grande negro monograma guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/900aaef7_63233c66-6a41-4398-9c8e-a7a4b3216860_sm.webp" alt="Tote grande negro monograma Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Tote grande negro monograma Guess</div>
+        <div class="price">S/ 258</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="tote guess gris monograma" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dd28bc01_67d04abc-0b82-4661-a17a-e4366fa687ab_sm.webp" alt="Tote guess gris monograma" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Tote guess gris monograma</div>
+        <div class="price">S/ 208</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="tote mediana azul monograma granja tommy" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/67ba8ba8_f16c549c-7f26-4a85-be4d-0c06ee21e170_sm.webp" alt="Tote mediana azul monograma granja Tommy" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Tote mediana azul monograma granja Tommy</div>
+        <div class="price">S/ 173</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="tote mediana negra monograma guess" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a318f53b_6ee78b3c-a963-450c-9d87-b58c78ca0a98_sm.webp" alt="Tote mediana negra monograma Guess" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Tote mediana negra monograma Guess</div>
+        <div class="price">S/ 211</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="tote mediana negro monograma tommy" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7f7bcc1b_17732a65-5feb-42ac-9597-ac14bcd8484d_sm.webp" alt="Tote mediana negro monograma Tommy" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Tote mediana negro monograma Tommy</div>
+        <div class="price">S/ 173</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="tote negro monograma guess 3 compartimentos" data-status="Disponible"
+             data-brand="Guess" data-cats="Carteras Guess">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0fc27384_e4bf3621-1579-4ea6-b806-7dbad4751b40_sm.webp" alt="Tote negro monograma Guess 3 compartimentos" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Tote negro monograma Guess 3 compartimentos</div>
+        <div class="price">S/ 233</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="tote vainilla monograma 3 compartimentos tommy" data-status="Disponible"
+             data-brand="Tommy Hilfiger" data-cats="Carteras Tommy Hilfiguer">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/78f3fbf0_549652dd-dcd8-4eb5-9e47-30241e8b2b95_sm.webp" alt="Tote vainilla monograma 3 compartimentos Tommy" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Tote vainilla monograma 3 compartimentos Tommy</div>
+        <div class="price">S/ 188</div>
+      </div>
+    </article>
+    
+    <article class="card" data-name="vitamina k2 y k3" data-status="Disponible"
+             data-brand="Otras marcas" data-cats="Vitaminas">
+      <div class="imgwrap">
+        <img src="https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9ead435f_75b2ee73-06bb-466e-aa04-5522b400d9fc_sm.webp" alt="Vitamina K2 y K3" loading="lazy">
+        <span class="badge ok">Disponible</span>
+      </div>
+      <div class="body">
+        <div class="name">Vitamina K2 y K3</div>
+        <div class="price">S/ 78</div>
+      </div>
+    </article>
+    
+  </main>
+  <p class="empty" id="empty">No hay productos con esos filtros.</p>
+
+  <footer>LU STORE · Precios en soles, sujetos a disponibilidad</footer>
+
+<script>
+(function () {
+  var q = document.getElementById('q'),
+      cat = document.getElementById('cat'),
+      brand = document.getElementById('brand'),
+      chips = document.getElementById('statusChips'),
+      cards = Array.prototype.slice.call(document.querySelectorAll('.card')),
+      countEl = document.getElementById('count'),
+      empty = document.getElementById('empty');
+  var status = '';
+
+  function apply() {
+    var text = q.value.trim().toLowerCase(),
+        c = cat.value, b = brand.value, shown = 0;
+    cards.forEach(function (card) {
+      var ok = (!text || card.dataset.name.indexOf(text) > -1)
+            && (!c || ('|' + card.dataset.cats + '|').indexOf('|' + c + '|') > -1)
+            && (!b || card.dataset.brand === b)
+            && (!status || card.dataset.status === status);
+      card.style.display = ok ? '' : 'none';
+      if (ok) shown++;
+    });
+    countEl.textContent = shown;
+    empty.style.display = shown ? 'none' : 'block';
+  }
+
+  q.addEventListener('input', apply);
+  cat.addEventListener('change', apply);
+  brand.addEventListener('change', apply);
+  chips.addEventListener('click', function (e) {
+    var chip = e.target.closest('.chip');
+    if (!chip) return;
+    chips.querySelectorAll('.chip').forEach(function (x) { x.classList.remove('active'); });
+    chip.classList.add('active');
+    status = chip.dataset.status;
+    apply();
+  });
+})();
+</script>
+</body>
+</html>

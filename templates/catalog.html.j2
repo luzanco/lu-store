@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ brand }}</title>
+<style>
+  :root {
+    --accent: {{ color }};
+    --accent-ink: #ffffff;
+    --bg:      #f7f4f1;
+    --surface: #ffffff;
+    --ink:     #241f1e;
+    --muted:   #8a807b;
+    --line:    #e9e2dc;
+    --chip:    #efeae5;
+    --ok:   #1f8f57;
+    --pre:  #2563c4;
+    --soon: #c07a12;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#17140f; --surface:#211c18; --ink:#f2ede8; --muted:#a89c93; --line:#322a24; --chip:#2b241f; }
+  }
+  :root[data-theme="dark"]  { --bg:#17140f; --surface:#211c18; --ink:#f2ede8; --muted:#a89c93; --line:#322a24; --chip:#2b241f; }
+  :root[data-theme="light"] { --bg:#f7f4f1; --surface:#ffffff; --ink:#241f1e; --muted:#8a807b; --line:#e9e2dc; --chip:#efeae5; }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--ink); -webkit-font-smoothing: antialiased;
+  }
+  header {
+    background: var(--accent); color: var(--accent-ink);
+    padding: 20px 16px; text-align: center;
+  }
+  .brand {
+    font-family: "Hoefler Text", Georgia, "Times New Roman", serif;
+    font-size: 1.7rem; font-weight: 600; letter-spacing: .04em; text-wrap: balance;
+  }
+  .tagline { font-size: .7rem; text-transform: uppercase; letter-spacing: .22em; opacity: .9; margin-top: 6px; }
+
+  .filters {
+    position: sticky; top: 0; z-index: 20; background: var(--bg);
+    border-bottom: 1px solid var(--line); padding: 10px 12px;
+    display: flex; flex-direction: column; gap: 8px; max-width: 1120px; margin: 0 auto;
+  }
+  .filters .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .search {
+    flex: 1 1 100%; min-width: 0; padding: 9px 12px; font-size: .9rem;
+    border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink);
+  }
+  select {
+    padding: 8px 10px; font-size: .82rem; border: 1px solid var(--line);
+    border-radius: 10px; background: var(--surface); color: var(--ink); flex: 1 1 46%;
+  }
+  .chip {
+    font-size: .74rem; font-weight: 600; padding: 6px 12px; border-radius: 999px;
+    border: 1px solid var(--line); background: var(--chip); color: var(--ink); cursor: pointer;
+  }
+  .chip.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .count { font-size: .74rem; color: var(--muted); padding: 0 2px; }
+
+  .grid {
+    display: grid; gap: 14px; padding: 14px;
+    grid-template-columns: repeat(2, 1fr); max-width: 1120px; margin: 0 auto;
+  }
+  @media (min-width: 640px) { .grid { grid-template-columns: repeat(3, 1fr); gap: 18px; } }
+  @media (min-width: 960px) { .grid { grid-template-columns: repeat(4, 1fr); } }
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    overflow: hidden; display: flex; flex-direction: column;
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  @media (hover: hover) { .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.10); } }
+  .imgwrap { position: relative; aspect-ratio: 4/5; background: var(--line); }
+  .imgwrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .badge {
+    position: absolute; top: 9px; left: 9px; font-size: .62rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .06em; padding: 3px 9px; border-radius: 999px; color: #fff;
+  }
+  .badge.ok { background: var(--ok); } .badge.pre { background: var(--pre); } .badge.soon { background: var(--soon); }
+  .body { padding: 10px 12px 14px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .name {
+    font-size: .82rem; font-weight: 500; line-height: 1.3;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.15em;
+  }
+  .price { font-size: 1.12rem; font-weight: 700; color: var(--accent); margin-top: auto; font-variant-numeric: tabular-nums; }
+  .empty { text-align: center; color: var(--muted); padding: 40px 16px; display: none; }
+  footer { text-align: center; font-size: .72rem; color: var(--muted); padding: 26px 16px 40px; border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+  <header>
+    <div class="brand">{{ brand }}</div>
+    <div class="tagline">{{ tagline }}</div>
+  </header>
+
+  <div class="filters">
+    <input id="q" class="search" type="search" placeholder="Buscar producto…" autocomplete="off">
+    <div class="row">
+      <select id="cat">
+        <option value="">Todas las categorías</option>
+        {% for c in categories %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+      </select>
+      <select id="brand">
+        <option value="">Todas las marcas</option>
+        {% for b in brands %}<option value="{{ b }}">{{ b }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="row" id="statusChips">
+      <span class="chip active" data-status="">Todos</span>
+      {% for s in statuses %}<span class="chip" data-status="{{ s }}">{{ s }}</span>{% endfor %}
+    </div>
+    <div class="count"><span id="count">{{ count }}</span> productos · Actualizado {{ updated }}</div>
+  </div>
+
+  <main class="grid" id="grid">
+    {% for p in products %}
+    <article class="card" data-name="{{ p.name|lower }}" data-status="{{ p.status }}"
+             data-brand="{{ p.brand }}" data-cats="{{ p.categories|join('|') }}">
+      <div class="imgwrap">
+        <img src="{{ p.image }}" alt="{{ p.name }}" loading="lazy">
+        <span class="badge {{ p.status_css }}">{{ p.status }}</span>
+      </div>
+      <div class="body">
+        <div class="name">{{ p.name }}</div>
+        <div class="price">{{ p.price | price }}</div>
+      </div>
+    </article>
+    {% endfor %}
+  </main>
+  <p class="empty" id="empty">No hay productos con esos filtros.</p>
+
+  <footer>{{ brand }} · Precios en soles, sujetos a disponibilidad</footer>
+
+<script>
+(function () {
+  var q = document.getElementById('q'),
+      cat = document.getElementById('cat'),
+      brand = document.getElementById('brand'),
+      chips = document.getElementById('statusChips'),
+      cards = Array.prototype.slice.call(document.querySelectorAll('.card')),
+      countEl = document.getElementById('count'),
+      empty = document.getElementById('empty');
+  var status = '';
+
+  function apply() {
+    var text = q.value.trim().toLowerCase(),
+        c = cat.value, b = brand.value, shown = 0;
+    cards.forEach(function (card) {
+      var ok = (!text || card.dataset.name.indexOf(text) > -1)
+            && (!c || ('|' + card.dataset.cats + '|').indexOf('|' + c + '|') > -1)
+            && (!b || card.dataset.brand === b)
+            && (!status || card.dataset.status === status);
+      card.style.display = ok ? '' : 'none';
+      if (ok) shown++;
+    });
+    countEl.textContent = shown;
+    empty.style.display = shown ? 'none' : 'block';
+  }
+
+  q.addEventListener('input', apply);
+  cat.addEventListener('change', apply);
+  brand.addEventListener('change', apply);
+  chips.addEventListener('click', function (e) {
+    var chip = e.target.closest('.chip');
+    if (!chip) return;
+    chips.querySelectorAll('.chip').forEach(function (x) { x.classList.remove('active'); });
+    chip.classList.add('active');
+    status = chip.dataset.status;
+    apply();
+  });
+})();
+</script>
+</body>
+</html>
