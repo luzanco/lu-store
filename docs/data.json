@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T15:42:29.167723-05:00",
-  "count": 104,
+  "updated": "2026-07-13T16:35:56.985877-05:00",
+  "count": 103,
   "products": [
     {
       "id": "prod--nJI-A",
@@ -1599,21 +1599,6 @@
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/78f3fbf0_549652dd-dcd8-4eb5-9e47-30241e8b2b95_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d4cdd126_e8b3f84d-2d68-40b5-97c8-3407a61b5efc_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c5c8c30b_b847e13d-50e9-4559-8338-c7985e79578a_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-cSzIbA",
-      "name": "Vitamina K2 y K3",
-      "price": 78.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9ead435f_75b2ee73-06bb-466e-aa04-5522b400d9fc_sm.webp",
-      "categories": [
-        "Vitaminas"
-      ],
-      "brand": "Otras marcas",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9ead435f_75b2ee73-06bb-466e-aa04-5522b400d9fc_sm.webp"
       ]
     }
   ]
