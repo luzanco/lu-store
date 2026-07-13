@@ -120,6 +120,35 @@
   @media (hover: hover) { .wa:hover { background: #1eb757; } }
   .empty { text-align: center; color: var(--muted); padding: 40px 16px; display: none; }
   footer { text-align: center; font-size: .72rem; color: var(--muted); padding: 26px 16px 40px; border-top: 1px solid var(--line); }
+  .carousel img { cursor: zoom-in; }
+
+  /* Visor de fotos con zoom */
+  .lb { position: fixed; inset: 0; z-index: 100; background: rgba(0,0,0,.94); }
+  .lb[hidden] { display: none; }
+  .lb-stage {
+    position: absolute; inset: 0; overflow: hidden; touch-action: none;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .lb-stage img {
+    max-width: 100%; max-height: 100%; transform-origin: center center;
+    will-change: transform; -webkit-user-select: none; user-select: none; -webkit-user-drag: none;
+  }
+  .lb-close, .lb-nav {
+    position: absolute; z-index: 3; border: none; cursor: pointer; color: #fff;
+    background: rgba(255,255,255,.18); border-radius: 999px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .lb-close { top: 14px; right: 14px; width: 44px; height: 44px; font-size: 26px; }
+  .lb-nav { top: 50%; transform: translateY(-50%); width: 46px; height: 46px; font-size: 30px; }
+  .lb-prev { left: 12px; } .lb-next { right: 12px; }
+  .lb-count {
+    position: absolute; top: 18px; left: 0; right: 0; text-align: center; z-index: 3;
+    color: #fff; font-size: .82rem; font-weight: 600; pointer-events: none;
+  }
+  .lb-hint {
+    position: absolute; bottom: 22px; left: 0; right: 0; text-align: center; z-index: 3;
+    color: rgba(255,255,255,.8); font-size: .78rem; pointer-events: none;
+  }
 </style>
 </head>
 <body>
@@ -2440,6 +2469,15 @@
   </main>
   <p class="empty" id="empty">No hay productos con esos filtros.</p>
 
+  <div id="lb" class="lb" hidden>
+    <span class="lb-count"></span>
+    <button class="lb-close" aria-label="Cerrar">×</button>
+    <button class="lb-nav lb-prev" aria-label="Foto anterior">‹</button>
+    <button class="lb-nav lb-next" aria-label="Foto siguiente">›</button>
+    <div class="lb-stage"><img alt=""></div>
+    <div class="lb-hint">Pellizca, doble toque o rueda para acercar · desliza para cerrar</div>
+  </div>
+
   <footer>LU STORE · Precios en soles, sujetos a disponibilidad</footer>
 
 <script>
@@ -2499,6 +2537,120 @@
     status = chip.dataset.status;
     apply();
   });
+})();
+</script>
+
+<script>
+/* Visor de fotos con zoom (pinch / doble toque / rueda) */
+(function () {
+  var lb = document.getElementById('lb'),
+      stage = lb.querySelector('.lb-stage'),
+      img = stage.querySelector('img'),
+      countEl = lb.querySelector('.lb-count');
+  var group = [], idx = 0, scale = 1, tx = 0, ty = 0;
+  var pts = {}, startDist = 0, startScale = 1, startMid = null, startTx = 0, startTy = 0;
+  var down = null, moved = false;
+  var cx = function () { return window.innerWidth / 2; };
+  var cy = function () { return window.innerHeight / 2; };
+
+  function apply() {
+    img.style.transform = 'translate(' + tx + 'px,' + ty + 'px) scale(' + scale + ')';
+    img.style.cursor = scale > 1 ? 'grab' : 'zoom-in';
+  }
+  function animate() { img.style.transition = 'transform .15s'; apply(); setTimeout(function () { img.style.transition = ''; }, 170); }
+  function show(i) {
+    idx = (i + group.length) % group.length;
+    img.src = group[idx]; scale = 1; tx = 0; ty = 0; apply();
+    countEl.textContent = group.length > 1 ? (idx + 1) + ' / ' + group.length : '';
+    lb.querySelector('.lb-prev').style.display = lb.querySelector('.lb-next').style.display = group.length > 1 ? '' : 'none';
+  }
+  function open(list, i) { group = list; lb.hidden = false; document.documentElement.style.overflow = 'hidden'; show(i); }
+  function close() { lb.hidden = true; document.documentElement.style.overflow = ''; }
+
+  // Abrir el visor al tocar una foto
+  document.querySelectorAll('.carousel').forEach(function (car) {
+    var srcs = Array.prototype.map.call(car.querySelectorAll('img'), function (im) { return im.getAttribute('src'); });
+    Array.prototype.forEach.call(car.querySelectorAll('img'), function (im, i) {
+      im.addEventListener('click', function (ev) { ev.preventDefault(); ev.stopPropagation(); open(srcs, i); });
+    });
+  });
+
+  lb.querySelector('.lb-close').addEventListener('click', function (e) { e.stopPropagation(); close(); });
+  lb.querySelector('.lb-prev').addEventListener('click', function (e) { e.stopPropagation(); show(idx - 1); });
+  lb.querySelector('.lb-next').addEventListener('click', function (e) { e.stopPropagation(); show(idx + 1); });
+  document.addEventListener('keydown', function (e) {
+    if (lb.hidden) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowLeft') show(idx - 1);
+    else if (e.key === 'ArrowRight') show(idx + 1);
+  });
+
+  function keys() { return Object.keys(pts); }
+  function d2(a, b) { return Math.hypot(a.x - b.x, a.y - b.y); }
+  function mid2(a, b) { return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 }; }
+
+  stage.addEventListener('pointerdown', function (e) {
+    stage.setPointerCapture(e.pointerId);
+    pts[e.pointerId] = { x: e.clientX, y: e.clientY };
+    moved = false; down = { x: e.clientX, y: e.clientY, tx: tx, ty: ty };
+    var k = keys();
+    if (k.length === 2) {
+      startDist = d2(pts[k[0]], pts[k[1]]); startScale = scale;
+      startMid = mid2(pts[k[0]], pts[k[1]]); startTx = tx; startTy = ty;
+    }
+  });
+  stage.addEventListener('pointermove', function (e) {
+    if (!pts[e.pointerId]) return;
+    pts[e.pointerId] = { x: e.clientX, y: e.clientY };
+    var k = keys();
+    if (k.length >= 2) {
+      moved = true;
+      var d = d2(pts[k[0]], pts[k[1]]), m = mid2(pts[k[0]], pts[k[1]]);
+      scale = Math.min(5, Math.max(1, startScale * (d / startDist)));
+      tx = startTx + (m.x - startMid.x); ty = startTy + (m.y - startMid.y);
+      apply();
+    } else if (scale > 1 && down) {
+      if (Math.abs(e.clientX - down.x) + Math.abs(e.clientY - down.y) > 4) moved = true;
+      tx = down.tx + (e.clientX - down.x); ty = down.ty + (e.clientY - down.y); apply();
+    } else if (down) {
+      if (Math.abs(e.clientX - down.x) + Math.abs(e.clientY - down.y) > 8) moved = true;
+    }
+  });
+  function endPointer(e) {
+    var startX = down ? down.x : e.clientX;
+    delete pts[e.pointerId];
+    if (keys().length === 0) {
+      if (scale < 1.05) { // no hay zoom: gesto de deslizar/tap
+        if (moved) {
+          var dx = e.clientX - startX, dy = e.clientY - (down ? down.y : e.clientY);
+          if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) && group.length > 1) show(idx + (dx < 0 ? 1 : -1));
+          else if (Math.abs(dy) > 80) close();  // deslizar para cerrar
+        } else {
+          tap(e);
+        }
+      }
+      down = null;
+    }
+  }
+  stage.addEventListener('pointerup', endPointer);
+  stage.addEventListener('pointercancel', function (e) { delete pts[e.pointerId]; if (!keys().length) down = null; });
+
+  function tap(e) {
+    if (e.target !== img) { close(); return; }  // tocar el fondo cierra
+    if (scale > 1) { scale = 1; tx = 0; ty = 0; }
+    else { scale = 2.5; var ox = e.clientX - cx(), oy = e.clientY - cy(); tx = ox * (1 - scale); ty = oy * (1 - scale); }
+    animate();
+  }
+
+  stage.addEventListener('wheel', function (e) {
+    e.preventDefault();
+    var ns = Math.min(5, Math.max(1, scale * (e.deltaY < 0 ? 1.2 : 0.83)));
+    var ox = e.clientX - cx(), oy = e.clientY - cy();
+    tx = (tx - ox * (1 - scale)) + ox * (1 - ns);
+    ty = (ty - oy * (1 - scale)) + oy * (1 - ns);
+    scale = ns; if (scale <= 1.02) { scale = 1; tx = 0; ty = 0; }
+    apply();
+  }, { passive: false });
 })();
 </script>
 </body>
