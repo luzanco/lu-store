@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T13:49:51.676599-05:00",
-  "count": 86,
+  "updated": "2026-07-13T13:53:36.747490-05:00",
+  "count": 88,
   "products": [
     {
       "id": "prod-fWpOBg",
@@ -219,6 +219,18 @@
       "brand": "Steve Madden"
     },
     {
+      "id": "prod-GCtazA",
+      "name": "Cartera ejecutiva guess negro",
+      "price": 238.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2cbe1f18_88a6f4af-2f3c-4f79-af70-ff066fd3f075_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess"
+    },
+    {
       "id": "prod-rQbbRg",
       "name": "Cartera elegante grande marrón Guess",
       "price": 273.0,
@@ -253,6 +265,18 @@
         "Carteras Guess"
       ],
       "brand": "Guess"
+    },
+    {
+      "id": "prod-lVKQoA",
+      "name": "Cartera grande con cierre anne klein",
+      "price": 173.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/42c9b0cb_0330819b-3d96-4f54-b909-9570230e17a8_sm.webp",
+      "categories": [
+        "Liquidación"
+      ],
+      "brand": "Otras marcas"
     },
     {
       "id": "prod-BfLJew",
