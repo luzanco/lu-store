@@ -73,7 +73,25 @@
   }
   @media (hover: hover) { .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.10); } }
   .imgwrap { position: relative; aspect-ratio: 4/5; background: var(--line); }
-  .imgwrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .carousel {
+    display: flex; width: 100%; height: 100%; overflow-x: auto; scroll-snap-type: x mandatory;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .carousel::-webkit-scrollbar { display: none; }
+  .carousel img { flex: 0 0 100%; width: 100%; height: 100%; object-fit: cover; scroll-snap-align: center; }
+  .dots {
+    position: absolute; bottom: 7px; left: 0; right: 0; display: flex; gap: 4px;
+    justify-content: center; pointer-events: none;
+  }
+  .dots i {
+    width: 5px; height: 5px; border-radius: 999px; background: rgba(255,255,255,.6);
+    box-shadow: 0 0 2px rgba(0,0,0,.5); transition: background .2s;
+  }
+  .dots i.on { background: #fff; }
+  .photocount {
+    position: absolute; top: 9px; right: 9px; font-size: .6rem; font-weight: 700;
+    padding: 2px 7px; border-radius: 999px; background: rgba(0,0,0,.55); color: #fff;
+  }
   .badge {
     position: absolute; top: 9px; left: 9px; font-size: .62rem; font-weight: 700;
     text-transform: uppercase; letter-spacing: .06em; padding: 3px 9px; border-radius: 999px; color: #fff;
@@ -85,6 +103,13 @@
     display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.15em;
   }
   .price { font-size: 1.12rem; font-weight: 700; color: var(--accent); margin-top: auto; font-variant-numeric: tabular-nums; }
+  .wa {
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    margin-top: 8px; padding: 8px; border-radius: 9px; text-decoration: none;
+    background: #25d366; color: #fff; font-size: .8rem; font-weight: 700;
+  }
+  .wa svg { width: 15px; height: 15px; fill: currentColor; }
+  @media (hover: hover) { .wa:hover { background: #1eb757; } }
   .empty { text-align: center; color: var(--muted); padding: 40px 16px; display: none; }
   footer { text-align: center; font-size: .72rem; color: var(--muted); padding: 26px 16px 40px; border-top: 1px solid var(--line); }
 </style>
@@ -119,12 +144,25 @@
     <article class="card" data-name="{{ p.name|lower }}" data-status="{{ p.status }}"
              data-brand="{{ p.brand }}" data-cats="{{ p.categories|join('|') }}">
       <div class="imgwrap">
-        <img src="{{ p.image }}" alt="{{ p.name }}" loading="lazy">
+        <div class="carousel">
+          {% for img in p.images %}<img src="{{ img }}" alt="{{ p.name }}" loading="lazy">{% endfor %}
+        </div>
         <span class="badge {{ p.status_css }}">{{ p.status }}</span>
+        {% if p.images|length > 1 %}
+        <span class="photocount">📷 {{ p.images|length }}</span>
+        <div class="dots">{% for img in p.images %}<i></i>{% endfor %}</div>
+        {% endif %}
       </div>
       <div class="body">
         <div class="name">{{ p.name }}</div>
         <div class="price">{{ p.price | price }}</div>
+        {% if whatsapp %}
+        <a class="wa" target="_blank" rel="noopener"
+           href="https://wa.me/{{ whatsapp }}?text={{ (whatsapp_msg ~ ' ' ~ p.name ~ ' (' ~ currency ~ ' ' ~ p.price|int ~ ')')|urlencode }}">
+          <svg viewBox="0 0 24 24"><path d="M.06 24l1.68-6.1a11.87 11.87 0 01-1.6-5.95C.15 5.35 5.5 0 12.05 0a11.82 11.82 0 018.4 3.5 11.75 11.75 0 013.48 8.4c0 6.55-5.35 11.9-11.9 11.9a11.9 11.9 0 01-5.7-1.45L.06 24zm6.6-3.8c1.7.98 3.2 1.57 5.4 1.57 5.44 0 9.9-4.43 9.9-9.9 0-5.46-4.4-9.9-9.9-9.9-5.47 0-9.9 4.44-9.9 9.9 0 2.3.7 4 1.8 5.68l-1 3.6 3.7-.95zm11.36-5.3c-.07-.12-.27-.2-.57-.35-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.9-.8-1.5-1.77-1.67-2.07-.17-.3-.02-.46.13-.6.13-.14.3-.35.44-.53.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.48-.5-.66-.5l-.57-.02c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.06 2.88 1.2 3.08.15.2 2.1 3.2 5.07 4.5.7.3 1.26.48 1.7.62.7.22 1.35.2 1.86.12.57-.08 1.76-.72 2-1.4.25-.7.25-1.28.18-1.4z"/></svg>
+          Pedir por WhatsApp
+        </a>
+        {% endif %}
       </div>
     </article>
     {% endfor %}
@@ -158,6 +196,17 @@
     countEl.textContent = shown;
     empty.style.display = shown ? 'none' : 'block';
   }
+
+  // Puntitos del carrusel: marcar el activo según el desplazamiento
+  document.querySelectorAll('.carousel').forEach(function (car) {
+    var dots = car.parentElement.querySelectorAll('.dots i');
+    if (!dots.length) return;
+    car.addEventListener('scroll', function () {
+      var idx = Math.round(car.scrollLeft / car.clientWidth);
+      dots.forEach(function (d, i) { d.classList.toggle('on', i === idx); });
+    }, { passive: true });
+    if (dots[0]) dots[0].classList.add('on');
+  });
 
   q.addEventListener('input', apply);
   cat.addEventListener('change', apply);

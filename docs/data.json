@@ -1,7 +1,23 @@
 {
-  "updated": "2026-07-13T13:49:51.676599-05:00",
-  "count": 86,
+  "updated": "2026-07-13T14:14:57.305075-05:00",
+  "count": 94,
   "products": [
+    {
+      "id": "prod-FqqrLQ",
+      "name": "Baguette gris monograma Guess 2 correas",
+      "price": 213.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/980874dd_e54aa3f1-6f3f-4b22-a4b4-02654ee04899_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/980874dd_e54aa3f1-6f3f-4b22-a4b4-02654ee04899_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c17f4647_e85d1a81-fdfd-4872-89a0-eb53e40e1c7a_sm.webp"
+      ]
+    },
     {
       "id": "prod-fWpOBg",
       "name": "Baguette juicy de fresa",
@@ -12,7 +28,10 @@
       "categories": [
         "Carteras Juicy Couture"
       ],
-      "brand": "Juicy Couture"
+      "brand": "Juicy Couture",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/819a657a_0f9b22cf-c858-4cf1-b302-ea770a5f2bcc_sm.webp"
+      ]
     },
     {
       "id": "prod-4SxoVQ",
@@ -24,7 +43,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/64efd259_46f3819c-62f7-4dba-b0f5-7993dd5d6676_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/703494e8_ba781c4c-4927-48fa-b2d1-5c10cb3ec5bf_sm.webp"
+      ]
     },
     {
       "id": "prod-413mSQ",
@@ -36,7 +59,10 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/89a7fbcf_7fa63cbb-83dc-4cbf-ad58-8ab5f12a3e17_sm.webp"
+      ]
     },
     {
       "id": "prod-P9En6g",
@@ -48,7 +74,10 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6ae0f322_6e8cff25-9486-4e7b-a13b-3c3f4a16b8e4_sm.webp"
+      ]
     },
     {
       "id": "prod-4vbc4Q",
@@ -60,7 +89,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d3889fe5_53c5ed99-1b21-4460-bf87-e1524220e146_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/237d0805_332b71ef-c0ed-4f90-9904-b48c7949844f_sm.webp"
+      ]
     },
     {
       "id": "prod-VK6T-Q",
@@ -72,7 +105,27 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ff1441ee_1429e0d5-1386-4e2a-a4d0-e823a1d80fbb_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d1756c1d_1be6c476-98ba-408e-9aab-0f1af412238c_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-teXBqg",
+      "name": "Baguette rosa monograma guess",
+      "price": 208.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f81b5ef8_d6021a6f-e2b2-42ae-89ba-d8cadf907654_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f81b5ef8_d6021a6f-e2b2-42ae-89ba-d8cadf907654_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/54d911b6_9988e404-a03b-422d-a1d7-43b6a8753d7d_sm.webp"
+      ]
     },
     {
       "id": "prod-idRGDA",
@@ -84,7 +137,10 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a43b7cd7_16bf489c-1735-4f86-b5f4-843fe2e8e853_sm.webp"
+      ]
     },
     {
       "id": "prod-1tSpIQ",
@@ -96,7 +152,12 @@
       "categories": [
         "Carteras Juicy Couture"
       ],
-      "brand": "Juicy Couture"
+      "brand": "Juicy Couture",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0c87cf46_2195ca39-9abb-4b26-b3d4-7033d156b455_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/5db13e82_b9b3ddc8-8745-432c-b636-9273a6448cd3_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c178261a_6d348f99-3138-4daa-a4ce-b0d5eafd5c4b_sm.webp"
+      ]
     },
     {
       "id": "prod-nVdv3g",
@@ -108,7 +169,11 @@
       "categories": [
         "Billeteras"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/31f013a3_afdaefe7-7711-49cd-8f9b-c58452dbbaa9_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/39e7e0da_ab97d865-f408-4ebc-af80-887ffc3ffa62_sm.webp"
+      ]
     },
     {
       "id": "prod-pN1Vhw",
@@ -120,7 +185,11 @@
       "categories": [
         "Billeteras"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/fb483919_4c0cace6-6081-42ba-99c6-ba8804182c64_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6b6d244e_ce8fade5-95f7-41cf-af0e-7ef29cb74f38_sm.webp"
+      ]
     },
     {
       "id": "prod-AYyKHQ",
@@ -132,7 +201,12 @@
       "categories": [
         "Billeteras"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/df8e038d_56a146ac-4b2e-454d-949b-f1d3a9b3b21c_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/51f82a60_05eb9208-89df-4787-a3e0-b15beb1309f4_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/952742a0_ff8ccb9e-4194-44cf-91c2-5f09ea568dde_sm.webp"
+      ]
     },
     {
       "id": "prod-fimRfw",
@@ -144,7 +218,12 @@
       "categories": [
         "Billeteras"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/5d27c165_5e8ba2dd-dab9-443e-99b1-8d84ae2972ab_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ce447fca_70d8ba3d-00c5-4709-b2b2-2a538a061e55_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/64f3cb99_c5bc7b8b-9fb3-4623-bf10-17db73e5a791_sm.webp"
+      ]
     },
     {
       "id": "prod-Urd9RA",
@@ -156,7 +235,11 @@
       "categories": [
         "Billeteras"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b8e882ed_8f45a964-9d13-4e50-bb1b-b6d4b56865fb_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/284b04b8_90e2efe3-ec21-43ff-abd8-cde26175c123_sm.webp"
+      ]
     },
     {
       "id": "prod-RdpN7w",
@@ -168,7 +251,12 @@
       "categories": [
         "Billeteras"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2d91a529_c95a726d-74ae-4535-bf69-f3e98133b473_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/1b068010_2bf5e441-40b2-4eca-a93b-d4127f0907f5_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c510030f_231ae406-1a2d-42be-95eb-a6a8e1c61f9e_sm.webp"
+      ]
     },
     {
       "id": "prod-BVkcsA",
@@ -180,7 +268,11 @@
       "categories": [
         "Carteras Steve Madden"
       ],
-      "brand": "Steve Madden"
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e73a659a_d5b32c4a-13eb-40b1-8c91-2ee23b51705b_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bf4970c3_ff770b9c-64d2-447c-8565-450836e03b5d_sm.webp"
+      ]
     },
     {
       "id": "prod-ANH2GA",
@@ -192,7 +284,11 @@
       "categories": [
         "Carteras Steve Madden"
       ],
-      "brand": "Steve Madden"
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7fc7c10f_009f7841-ebd1-43e2-87da-751058085a52_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dd50dafb_4d3b07ea-112e-48dd-94ca-8c0671250304_sm.webp"
+      ]
     },
     {
       "id": "prod-RM1yfQ",
@@ -204,7 +300,10 @@
       "categories": [
         "Carteras Steve Madden"
       ],
-      "brand": "Steve Madden"
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a259f1b3_e06e9a78-02f0-4625-84c2-28f486d81d11_sm.webp"
+      ]
     },
     {
       "id": "prod-6CDegw",
@@ -216,7 +315,25 @@
       "categories": [
         "Carteras Steve Madden"
       ],
-      "brand": "Steve Madden"
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/46f28ec0_27c6ca07-aa21-4a39-86ab-fd48c414929f_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-GCtazA",
+      "name": "Cartera ejecutiva guess negro",
+      "price": 238.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2cbe1f18_88a6f4af-2f3c-4f79-af70-ff066fd3f075_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2cbe1f18_88a6f4af-2f3c-4f79-af70-ff066fd3f075_sm.webp"
+      ]
     },
     {
       "id": "prod-rQbbRg",
@@ -228,7 +345,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2958af33_8650b54b-7024-4e4f-a5dd-a9d903b0b42b_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8a04a353_f5429958-4823-4518-b33c-b87eb91bd0f6_sm.webp"
+      ]
     },
     {
       "id": "prod-j2aBqA",
@@ -240,7 +361,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0126a544_8684ffe6-c279-4511-93d2-45481f5e781e_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ce840dc8_22da4372-4e2e-46af-a2cc-6019af0c2bdd_sm.webp"
+      ]
     },
     {
       "id": "prod-JG6yGg",
@@ -252,7 +377,26 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d5de9cbb_322d2edd-345c-48a2-9c78-cfe34e030e28_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0ffc5786_4f4a7715-abcb-4c8a-8044-4c1025b94d22_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-lVKQoA",
+      "name": "Cartera grande con cierre anne klein",
+      "price": 173.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/42c9b0cb_0330819b-3d96-4f54-b909-9570230e17a8_sm.webp",
+      "categories": [
+        "Liquidación"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/42c9b0cb_0330819b-3d96-4f54-b909-9570230e17a8_sm.webp"
+      ]
     },
     {
       "id": "prod-BfLJew",
@@ -264,7 +408,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9f4e2081_93b28e2b-e009-4c06-bbf4-f051937426bf_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/fceaae26_83a61d74-47dd-4042-a8fd-31257d2baa52_sm.webp"
+      ]
     },
     {
       "id": "prod-00wUDQ",
@@ -276,7 +424,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0693cec9_df02b796-b465-42c0-828d-3040ed83082b_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0dd70746_e03e3c99-fc00-4682-97e7-d67abecdc591_sm.webp"
+      ]
     },
     {
       "id": "prod-8GtoAA",
@@ -288,7 +440,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1ec95c8_945130e2-ab1a-4192-9881-47ea23f25b9b_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8ded9e6c_b4be172e-18f0-4816-9a35-9e2d7410b793_sm.webp"
+      ]
     },
     {
       "id": "prod-uLvsJQ",
@@ -300,7 +456,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/cbbc1ac6_e6e22845-ed63-4a88-826b-105f8b1f441d_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/98f01315_75b2e9de-833f-45a3-b6d4-6cc40f06cf7c_sm.webp"
+      ]
     },
     {
       "id": "prod-f4pdhw",
@@ -312,7 +472,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9c967f15_ed5e319c-fb6b-484c-90d2-e39affc4b34e_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bda71524_cf29df06-7503-44a1-8409-453a20ae633a_sm.webp"
+      ]
     },
     {
       "id": "prod-Ljr2gw",
@@ -324,7 +488,10 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/612db4c6_27d6cab3-832e-4951-a37f-e67f493ada55_sm.webp"
+      ]
     },
     {
       "id": "prod-MmKbqA",
@@ -336,7 +503,10 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e88b4317_f4e19f15-5747-46aa-a3a6-c823e8214302_sm.webp"
+      ]
     },
     {
       "id": "prod-s33oew",
@@ -348,7 +518,11 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b2953a44_1e0b68d4-fda1-46cf-a293-f0811e27fbbe_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/db65b446_0ea56ed4-e083-404b-b8ca-82fe67050933_sm.webp"
+      ]
     },
     {
       "id": "prod-flMOLg",
@@ -360,7 +534,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/fbfae75a_858e9e7c-fa40-436d-9cc5-42fdf1c2a682_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9fe41e67_2ba9c81b-ac52-4c3e-8f86-ebfc04065e84_sm.webp"
+      ]
     },
     {
       "id": "prod-oEJYlg",
@@ -372,7 +550,10 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0ac48081_ffcdde3f-599e-4f1b-b8aa-d638f2758a80_sm.webp"
+      ]
     },
     {
       "id": "prod-VvAGqw",
@@ -384,7 +565,12 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/319caf70_e0100de5-ef58-4e02-b0bf-0133e6181cc9_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9db7c121_6786b781-11e3-41eb-89bf-56e1792863b3_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/1624d050_a37991f2-30d2-480b-ae7a-b6c7a154980e_sm.webp"
+      ]
     },
     {
       "id": "prod-n40CYQ",
@@ -396,7 +582,10 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/85b439c1_70b9f366-0b71-4345-b7ca-15f5d53f6472_sm.webp"
+      ]
     },
     {
       "id": "prod-ZGRPEg",
@@ -408,7 +597,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afae7017_993c2aab-91a2-4163-bf52-65bf5aaa8f7a_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4c3e4539_0f6b35e4-0232-47af-a33b-805846457ef6_sm.webp"
+      ]
     },
     {
       "id": "prod-0d71IQ",
@@ -420,7 +613,10 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/44027cbc_6cf6f8aa-f22c-4b85-8dea-ecc8360b01c1_sm.webp"
+      ]
     },
     {
       "id": "prod-INfIKw",
@@ -432,7 +628,10 @@
       "categories": [
         "Carteras Nautica"
       ],
-      "brand": "Nautica"
+      "brand": "Nautica",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c54c664e_26cc3b8a-d016-4463-bf73-c12baa5f1f4f_sm.webp"
+      ]
     },
     {
       "id": "prod-6cIu1A",
@@ -444,7 +643,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c81117ff_659580f5-b525-46c3-ae7c-772d41db65b5_sm.webp"
+      ]
     },
     {
       "id": "prod-aKNyDQ",
@@ -456,7 +658,10 @@
       "categories": [
         "Billeteras"
       ],
-      "brand": "Nautica"
+      "brand": "Nautica",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e6b8d9c0_82ef544b-0859-47c3-8490-0cd2b22f2b09_sm.webp"
+      ]
     },
     {
       "id": "prod-Uho-RA",
@@ -468,7 +673,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d27b1680_057f41a7-f500-4a79-b7d1-cf66f90e7ab2_sm.webp"
+      ]
     },
     {
       "id": "prod-YAY7Aw",
@@ -480,7 +688,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc3cc732_3c138c65-cb7c-4bd7-b093-362cd19a21a0_sm.webp"
+      ]
     },
     {
       "id": "prod-xLeEUA",
@@ -492,7 +703,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/03e599e5_01315233-475d-49eb-9ee2-0c6f638ed5aa_sm.webp"
+      ]
     },
     {
       "id": "prod-xm1MGg",
@@ -504,7 +718,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Otras marcas"
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/652a15f6_9b0d1570-e781-49b6-8b9b-997eae901cec_sm.webp"
+      ]
     },
     {
       "id": "prod-U5jtjg",
@@ -516,7 +733,10 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d541db8c_cc88eec8-9b4a-4eea-a2f9-7d0af649d58d_sm.webp"
+      ]
     },
     {
       "id": "prod-dHnlrQ",
@@ -528,7 +748,10 @@
       "categories": [
         "Mochilas"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9c3be765_88ea05d0-44e2-4462-a2ab-15012f5fc729_sm.webp"
+      ]
     },
     {
       "id": "prod-jBzdLw",
@@ -540,7 +763,11 @@
       "categories": [
         "Mochilas"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6c8dad34_c4d84c9a-8a5b-49fb-8d80-efa685776426_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ab1f3b24_b5fcf950-1f56-4f0f-a693-0e543316c60e_sm.webp"
+      ]
     },
     {
       "id": "prod-j68h9w",
@@ -552,7 +779,11 @@
       "categories": [
         "Liquidación"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8a5e4c28_3d812b11-921b-42ef-8899-32dd179e57e1_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9459b71b_4cba5dc1-1294-437c-ab95-aab435c0086b_sm.webp"
+      ]
     },
     {
       "id": "prod-1Hwxxw",
@@ -564,7 +795,25 @@
       "categories": [
         "Mochilas"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/94a09b8f_ac7e069b-f621-4539-94a5-b3ada15fc19a_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-f9pKdg",
+      "name": "Morral azul monograma Tommy",
+      "price": 138.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f4182d1_9e99562f-4b02-40e5-8801-e03563a7a6ff_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f4182d1_9e99562f-4b02-40e5-8801-e03563a7a6ff_sm.webp"
+      ]
     },
     {
       "id": "prod-fSlQDw",
@@ -576,7 +825,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a37c68c6_fd3612cb-2836-4e1f-94e0-4212ed3defc6_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4d986f77_8897daa6-26d2-49e9-b1b5-c8462b6c7626_sm.webp"
+      ]
     },
     {
       "id": "prod-qQLHBg",
@@ -588,7 +841,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a02adc70_d2edd7a3-da5f-4e73-858b-f2cd641870f5_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/34c7504b_d977df58-d059-449c-9a97-68e3f9e1f6c1_sm.webp"
+      ]
     },
     {
       "id": "prod-QjeqlA",
@@ -598,7 +855,10 @@
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/be28604a_e77efd11-e34e-4269-a16e-4ad124ae9a71_sm.webp",
       "categories": [],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/be28604a_e77efd11-e34e-4269-a16e-4ad124ae9a71_sm.webp"
+      ]
     },
     {
       "id": "prod-aZwqZA",
@@ -610,7 +870,10 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b895d9d7_c9ce371a-7834-47eb-bc3b-577b365ecd17_sm.webp"
+      ]
     },
     {
       "id": "prod-r0IAIQ",
@@ -622,7 +885,10 @@
       "categories": [
         "Carteras Nautica"
       ],
-      "brand": "Nautica"
+      "brand": "Nautica",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dea23807_bbef1e6d-fb39-4979-844a-76efcb64079a_sm.webp"
+      ]
     },
     {
       "id": "prod-ZLvipA",
@@ -634,7 +900,25 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6d167d52_af7756ad-03cd-485d-a0fc-7f7c304deda6_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-EQffMQ",
+      "name": "Morral nautica 3 colores impermeable",
+      "price": 123.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d07ed346_1e401309-1793-4bf7-bffc-9e134e132c3e_sm.webp",
+      "categories": [
+        "Carteras Nautica"
+      ],
+      "brand": "Nautica",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d07ed346_1e401309-1793-4bf7-bffc-9e134e132c3e_sm.webp"
+      ]
     },
     {
       "id": "prod-x3G-Mw",
@@ -646,7 +930,11 @@
       "categories": [
         "Carteras Steve Madden"
       ],
-      "brand": "Steve Madden"
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8976df4a_03a54b54-aff4-4bd1-8d0f-ddcdea7d72de_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a9cce7c9_f0a1c7ee-6fb3-4fa8-9e91-b73ffb8e7294_sm.webp"
+      ]
     },
     {
       "id": "prod-xtQDaA",
@@ -658,7 +946,11 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4b09699a_48e04c7d-9f1a-4e03-a0d9-78a4a49ad0a2_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0c67662b_771f8b74-e00d-4b21-8a9b-906269d99236_sm.webp"
+      ]
     },
     {
       "id": "prod-khtc-g",
@@ -670,7 +962,10 @@
       "categories": [
         "Carteras Nautica"
       ],
-      "brand": "Nautica"
+      "brand": "Nautica",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6125c784_a2073d28-df0f-4044-a6b8-d1191711b3d8_sm.webp"
+      ]
     },
     {
       "id": "prod-zhK8dA",
@@ -682,7 +977,10 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/3fa1212f_c99b8523-b3f5-46a2-9a63-6e988e3236ee_sm.webp"
+      ]
     },
     {
       "id": "prod-YphqTw",
@@ -694,7 +992,10 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/56aa1989_7cfd5911-6e96-46ca-b960-fcc74002a1d2_sm.webp"
+      ]
     },
     {
       "id": "prod-qeepVg",
@@ -706,7 +1007,10 @@
       "categories": [
         "Muñequeras"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ddb1910f_034b4778-f982-45ab-81a0-af024962462a_sm.webp"
+      ]
     },
     {
       "id": "prod-b3piTw",
@@ -718,7 +1022,10 @@
       "categories": [
         "Muñequeras"
       ],
-      "brand": "Nautica"
+      "brand": "Nautica",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2c6af86c_9e6ba642-1f9a-4211-b20f-3b978c3a394b_sm.webp"
+      ]
     },
     {
       "id": "prod-JZLsNA",
@@ -730,7 +1037,12 @@
       "categories": [
         "Carteras Nautica"
       ],
-      "brand": "Nautica"
+      "brand": "Nautica",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/447d430e_8539d166-b429-496c-aa26-7a4d4bb015a4_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bdd3dab8_e9e0740f-c584-4e75-8e5a-6a519fe2d471_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9581e732_3a1b075c-1ba9-4ef3-a583-379c8fdc8319_sm.webp"
+      ]
     },
     {
       "id": "prod-KEBHgA",
@@ -742,7 +1054,11 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4a69a91a_2e80bef9-5aaf-4609-a822-1eacce0d6f59_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/db0be3bd_d45d1f70-a951-4236-b3e3-bd0dd19e984e_sm.webp"
+      ]
     },
     {
       "id": "prod-BqLxnw",
@@ -754,7 +1070,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/14985223_36c7dcf0-7ef9-43cf-b87a-6b6fb924740d_sm.webp"
+      ]
     },
     {
       "id": "prod-TAvdBQ",
@@ -766,7 +1085,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0303862c_71a4f2a9-e1c1-42cb-bc49-9f243ce8ea68_sm.webp"
+      ]
     },
     {
       "id": "prod-N-Syfg",
@@ -778,7 +1100,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/1aa71412_a4db88df-6353-4544-8e31-2956b8fa673e_sm.webp"
+      ]
     },
     {
       "id": "prod-tsbifQ",
@@ -790,7 +1115,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7a998849_26677e98-02b9-4aef-89a5-ece240cd9f8c_sm.webp"
+      ]
     },
     {
       "id": "prod-9Egl3Q",
@@ -802,7 +1130,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/73ada1f9_4035b8f5-2dbb-4ae7-b973-1cfe9004f9f3_sm.webp"
+      ]
     },
     {
       "id": "prod-Yb5izg",
@@ -814,7 +1145,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Otras marcas"
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e3ef75e1_d98bd708-ca26-423a-9240-848d67b3ea80_sm.webp"
+      ]
     },
     {
       "id": "prod-Z2QE2g",
@@ -826,7 +1160,11 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Otras marcas"
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/217e6b70_1f46476e-4806-48b7-bfaa-b4b98f2485bf_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c3dd5f9d_c0847c73-a6e5-47fe-b814-915519715521_sm.webp"
+      ]
     },
     {
       "id": "prod-6ma8eA",
@@ -838,7 +1176,11 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/48674d13_bb50d52e-901a-4022-93b4-cd7c961a9e5c_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dee8ec81_a5bc53e6-a754-44c5-a8e4-e8d68037ebf8_sm.webp"
+      ]
     },
     {
       "id": "prod-tiwtmg",
@@ -850,7 +1192,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6801e317_49040cdb-9186-4432-853f-e36a5fbcb8c3_sm.webp"
+      ]
     },
     {
       "id": "prod-V6GzfQ",
@@ -862,7 +1207,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Otras marcas"
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1c64ebb_94eadf34-7f7a-4005-9fa9-1de9d937a6a3_sm.webp"
+      ]
     },
     {
       "id": "prod-yF0EXA",
@@ -874,7 +1222,10 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/65129d14_e2c1cc3c-8dab-48c5-8b7c-5bb5575146d6_sm.webp"
+      ]
     },
     {
       "id": "prod-31rUDA",
@@ -886,7 +1237,11 @@
       "categories": [
         "Necesser"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/685dc254_abf4749a-c4dc-4dd3-a069-7c0a470bf792_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/545046d3_fb989c3c-a7c0-4d34-96cb-c4e2e1744b40_sm.webp"
+      ]
     },
     {
       "id": "prod-9lCcvg",
@@ -898,7 +1253,10 @@
       "categories": [
         "Packs"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/86fbbf29_768c9075-b908-457f-a908-626f23c83d0b_sm.webp"
+      ]
     },
     {
       "id": "prod-tdNtzA",
@@ -910,7 +1268,10 @@
       "categories": [
         "Carteras Steve Madden"
       ],
-      "brand": "Steve Madden"
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/97ae22a4_6e1986ef-9ace-4b1a-b6f8-473fa723fb4e_sm.webp"
+      ]
     },
     {
       "id": "prod-iK9qRQ",
@@ -922,7 +1283,10 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/baed00c4_ac268623-90c1-446f-9536-36eaf57b3f87_sm.webp"
+      ]
     },
     {
       "id": "prod-IEvR4w",
@@ -934,7 +1298,10 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4b812f67_1e7ab3c9-2e90-47ed-bbdf-906ad6279015_sm.webp"
+      ]
     },
     {
       "id": "prod-3O1tnw",
@@ -946,7 +1313,26 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/900aaef7_63233c66-6a41-4398-9c8e-a7a4b3216860_sm.webp"
+      ]
+    },
+    {
+      "id": "prod--b07yg",
+      "name": "Tote grande para laptop y cierre tommy",
+      "price": 198.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ab6f35d5_4783910c-3110-4d88-b835-ed60c9a1fad5_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ab6f35d5_4783910c-3110-4d88-b835-ed60c9a1fad5_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/62e83231_ed01756f-fd44-47ba-bfb1-4dfff11c129e_sm.webp"
+      ]
     },
     {
       "id": "prod-Sg3ZIQ",
@@ -958,7 +1344,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dd28bc01_67d04abc-0b82-4661-a17a-e4366fa687ab_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6dccabb6_db470353-38f4-42e2-8f9d-172dcdc56574_sm.webp"
+      ]
     },
     {
       "id": "prod-7Ns6Hg",
@@ -970,7 +1360,27 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/67ba8ba8_f16c549c-7f26-4a85-be4d-0c06ee21e170_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a27a6fff_1a8e5542-f9f9-4f4a-a63e-1dbf3fe5bdf5_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-taP4ew",
+      "name": "Tote mediana marrón guess con strap",
+      "price": 233.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ca2864df_da1acde6-6e6f-451e-b067-e8a1ba98e141_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ca2864df_da1acde6-6e6f-451e-b067-e8a1ba98e141_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9cd1362e_a01da903-bd04-405b-891d-07f6c627205e_sm.webp"
+      ]
     },
     {
       "id": "prod-9msdog",
@@ -982,7 +1392,11 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a318f53b_6ee78b3c-a963-450c-9d87-b58c78ca0a98_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f9dcae5_b6056aa9-11ba-4ec8-91d7-9a436e93863f_sm.webp"
+      ]
     },
     {
       "id": "prod-eMy3Qw",
@@ -994,7 +1408,11 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7f7bcc1b_17732a65-5feb-42ac-9597-ac14bcd8484d_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4504e028_d9529636-066f-42bf-a427-496ac6480006_sm.webp"
+      ]
     },
     {
       "id": "prod-IrSwKQ",
@@ -1006,7 +1424,10 @@
       "categories": [
         "Carteras Guess"
       ],
-      "brand": "Guess"
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0fc27384_e4bf3621-1579-4ea6-b806-7dbad4751b40_sm.webp"
+      ]
     },
     {
       "id": "prod--Sptyw",
@@ -1018,7 +1439,12 @@
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
-      "brand": "Tommy Hilfiger"
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/78f3fbf0_549652dd-dcd8-4eb5-9e47-30241e8b2b95_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d4cdd126_e8b3f84d-2d68-40b5-97c8-3407a61b5efc_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c5c8c30b_b847e13d-50e9-4559-8338-c7985e79578a_sm.webp"
+      ]
     },
     {
       "id": "prod-cSzIbA",
@@ -1030,7 +1456,10 @@
       "categories": [
         "Vitaminas"
       ],
-      "brand": "Otras marcas"
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9ead435f_75b2ee73-06bb-466e-aa04-5522b400d9fc_sm.webp"
+      ]
     }
   ]
 }

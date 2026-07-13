@@ -32,6 +32,7 @@ jobs:
           STORE_SLUG: ${{ secrets.STORE_SLUG }}
           MARKUP: ${{ secrets.MARKUP }}
           CATEGORY: ${{ secrets.CATEGORY }}
+          WHATSAPP: ${{ secrets.WHATSAPP }}
         run: python build_catalog.py
 
       - name: Publicar cambios

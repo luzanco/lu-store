@@ -49,11 +49,32 @@ BRANDS = {
 }
 
 
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
+
+
 def get(url: str, params: dict) -> str:
-    r = requests.get(url, params=params, headers=HEADERS, timeout=30)
+    r = SESSION.get(url, params=params, timeout=30)
     r.raise_for_status()
-    time.sleep(0.25)  # cortesía con el servidor del proveedor
+    time.sleep(0.2)  # cortesía con el servidor del proveedor
     return r.text
+
+
+def fetch_gallery(pid: str) -> list[str]:
+    """Todas las fotos del producto (desde su página de detalle), en orden."""
+    try:
+        html = get(BASE_URL + f"p/{pid}/", {})
+    except requests.RequestException:
+        return []
+    soup = BeautifulSoup(html, "html.parser")
+    root = soup.find(attrs={"data-store-carousel-root": True}) or soup
+    urls: list[str] = []
+    for item in root.select("[data-store-carousel-item] img"):
+        src = item.get("src")
+        # usar la URL exacta del proveedor (las variantes forzadas dan 403)
+        if src and "digitaloceanspaces" in src and src not in urls:
+            urls.append(src)
+    return urls
 
 
 def product_ids(html: str) -> set[str]:
@@ -219,6 +240,7 @@ def render(products: list[dict]) -> None:
         brand=config.BRAND, tagline=config.TAGLINE, color=config.COLOR,
         products=products, count=len(products),
         categories=categories, brands=brands, statuses=statuses,
+        whatsapp=config.WHATSAPP, whatsapp_msg=config.WHATSAPP_MSG, currency=config.CURRENCY,
         updated=now.strftime("%d/%m/%Y %I:%M %p"))
     DOCS.mkdir(exist_ok=True)
     (DOCS / "index.html").write_text(html, encoding="utf-8")
@@ -239,6 +261,14 @@ def main() -> None:
     for p in products:
         p["categories"] = pmap.get(p["id"], [])
         p["brand"] = brand_for(p["name"], p["categories"])
+
+    print("Descargando todas las fotos de cada producto...")
+    for i, p in enumerate(products, 1):
+        imgs = fetch_gallery(p["id"])
+        p["images"] = imgs or [p["image"]]   # fallback a la foto del listado
+        p["image"] = p["images"][0]
+        if i % 20 == 0:
+            print(f"  {i}/{len(products)} productos con fotos")
 
     render(products)
     print(f"Total en catálogo: {len(products)} · Generado: {DOCS / 'index.html'}")

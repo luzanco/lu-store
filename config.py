@@ -13,6 +13,12 @@ COLOR    = os.environ.get("COLOR",   "#a6224d")   # color principal de tu marca
 CURRENCY     = "S/"
 AVAILABILITY = "in_stock,soon,pre_sale"   # Disponible + Preventa + Pronto
 
+# --- WhatsApp (botón "Pedir por WhatsApp" en cada producto) ---
+# Tu número CON código de país y SIN símbolos, ej. Perú: 51987654321
+# Déjalo vacío ("") para ocultar el botón.
+WHATSAPP     = os.environ.get("WHATSAPP", "")
+WHATSAPP_MSG = "¡Hola LU STORE! Me interesa este producto:"
+
 # =============================================================================
 #  🔐 DATOS SENSIBLES  —  NO se escriben aquí.
 #  Vienen de los "Secrets" de GitHub (caja fuerte cifrada), así tu proveedor
