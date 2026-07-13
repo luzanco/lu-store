@@ -44,7 +44,18 @@ jobs:
           git add docs
           if git diff --cached --quiet; then
             echo "Sin cambios en el catálogo."
-          else
-            git commit -m "Actualiza catálogo ($(date -u +%Y-%m-%dT%H:%MZ))"
-            git push
+            exit 0
           fi
+          git commit -m "Actualiza catálogo ($(date -u +%Y-%m-%dT%H:%MZ))"
+          # Reintentar por si otra corrida publicó al mismo tiempo (nuestra versión, más fresca, gana)
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "Publicado."; exit 0
+            fi
+            echo "Choque con otra corrida; reintentando ($i)..."
+            git fetch origin main
+            git rebase -X ours origin/main || git rebase --abort
+            sleep 3
+          done
+          echo "No se pudo publicar tras varios intentos" >&2
+          exit 1
