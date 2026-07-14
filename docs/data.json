@@ -1,11 +1,11 @@
 {
-  "updated": "2026-07-14T07:52:57.288870-05:00",
+  "updated": "2026-07-14T09:00:57.013846-05:00",
   "count": 97,
   "products": [
     {
       "id": "prod--nJI-A",
       "name": "Baguette camel Steve Madden con cadena y charms",
-      "price": 163.0,
+      "price": 170.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f014d8ae_3b4d1169-52dc-4c91-814d-2caf3126a2cc_sm.webp",
@@ -21,7 +21,7 @@
     {
       "id": "prod-FqqrLQ",
       "name": "Baguette gris monograma Guess 2 correas",
-      "price": 213.0,
+      "price": 220.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/980874dd_e54aa3f1-6f3f-4b22-a4b4-02654ee04899_sm.webp",
@@ -37,7 +37,7 @@
     {
       "id": "prod-fWpOBg",
       "name": "Baguette juicy de fresa",
-      "price": 128.0,
+      "price": 135.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/819a657a_0f9b22cf-c858-4cf1-b302-ea770a5f2bcc_sm.webp",
@@ -52,7 +52,7 @@
     {
       "id": "prod-SPgdDw",
       "name": "Baguette marrón monograma guess limones",
-      "price": 213.0,
+      "price": 220.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e4007671_251764dd-e34b-42c7-af2d-652b52b5ee6c_sm.webp",
@@ -67,7 +67,7 @@
     {
       "id": "prod-4SxoVQ",
       "name": "Baguette negro guess con cadena",
-      "price": 213.0,
+      "price": 220.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/64efd259_46f3819c-62f7-4dba-b0f5-7993dd5d6676_sm.webp",
@@ -83,7 +83,7 @@
     {
       "id": "prod-413mSQ",
       "name": "Baguette negro monograma tommy pequeño",
-      "price": 128.0,
+      "price": 135.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/89a7fbcf_7fa63cbb-83dc-4cbf-ad58-8ab5f12a3e17_sm.webp",
@@ -98,7 +98,7 @@
     {
       "id": "prod-P9En6g",
       "name": "Baguette pequeño beige monograma",
-      "price": 128.0,
+      "price": 135.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6ae0f322_6e8cff25-9486-4e7b-a13b-3c3f4a16b8e4_sm.webp",
@@ -113,7 +113,7 @@
     {
       "id": "prod-4vbc4Q",
       "name": "Baguette roja guess doble correa",
-      "price": 223.0,
+      "price": 230.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d3889fe5_53c5ed99-1b21-4460-bf87-e1524220e146_sm.webp",
@@ -129,7 +129,7 @@
     {
       "id": "prod-VK6T-Q",
       "name": "Baguette rosa Guess dobles correa",
-      "price": 213.0,
+      "price": 220.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ff1441ee_1429e0d5-1386-4e2a-a4d0-e823a1d80fbb_sm.webp",
@@ -145,7 +145,7 @@
     {
       "id": "prod-teXBqg",
       "name": "Baguette rosa monograma guess",
-      "price": 208.0,
+      "price": 215.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f81b5ef8_d6021a6f-e2b2-42ae-89ba-d8cadf907654_sm.webp",
@@ -161,7 +161,7 @@
     {
       "id": "prod-idRGDA",
       "name": "Baguette tommy marrón monograma",
-      "price": 143.0,
+      "price": 150.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a43b7cd7_16bf489c-1735-4f86-b5f4-843fe2e8e853_sm.webp",
@@ -176,7 +176,7 @@
     {
       "id": "prod-1tSpIQ",
       "name": "Baúl vainilla con cerezas rosas Juicy",
-      "price": 173.0,
+      "price": 180.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0c87cf46_2195ca39-9abb-4b26-b3d4-7033d156b455_sm.webp",
@@ -193,7 +193,7 @@
     {
       "id": "prod-nVdv3g",
       "name": "Billetera completa grande fresas guess",
-      "price": 138.0,
+      "price": 145.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/31f013a3_afdaefe7-7711-49cd-8f9b-c58452dbbaa9_sm.webp",
@@ -209,7 +209,7 @@
     {
       "id": "prod-pN1Vhw",
       "name": "Billetera grande monograma colores Guess",
-      "price": 138.0,
+      "price": 145.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/fb483919_4c0cace6-6081-42ba-99c6-ba8804182c64_sm.webp",
@@ -225,7 +225,7 @@
     {
       "id": "prod-AYyKHQ",
       "name": "Billetera negra Guess sobre",
-      "price": 113.0,
+      "price": 120.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/df8e038d_56a146ac-4b2e-454d-949b-f1d3a9b3b21c_sm.webp",
@@ -242,7 +242,7 @@
     {
       "id": "prod-fimRfw",
       "name": "Billetera negro monograma Tommy",
-      "price": 103.0,
+      "price": 110.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/5d27c165_5e8ba2dd-dab9-443e-99b1-8d84ae2972ab_sm.webp",
@@ -259,7 +259,7 @@
     {
       "id": "prod-Urd9RA",
       "name": "Billetera sobre camel Tommy",
-      "price": 113.0,
+      "price": 120.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b8e882ed_8f45a964-9d13-4e50-bb1b-b6d4b56865fb_sm.webp",
@@ -275,7 +275,7 @@
     {
       "id": "prod-RdpN7w",
       "name": "Billetera sobre fresas Guess",
-      "price": 113.0,
+      "price": 120.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2d91a529_c95a726d-74ae-4535-bf69-f3e98133b473_sm.webp",
@@ -292,7 +292,7 @@
     {
       "id": "prod-BVkcsA",
       "name": "Cartera azul monograma Steve Madden",
-      "price": 138.0,
+      "price": 145.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e73a659a_d5b32c4a-13eb-40b1-8c91-2ee23b51705b_sm.webp",
@@ -308,7 +308,7 @@
     {
       "id": "prod-ANH2GA",
       "name": "Cartera beige monograma doble correa",
-      "price": 173.0,
+      "price": 180.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7fc7c10f_009f7841-ebd1-43e2-87da-751058085a52_sm.webp",
@@ -324,7 +324,7 @@
     {
       "id": "prod-RM1yfQ",
       "name": "Cartera beige Steve Madden con cereza",
-      "price": 173.0,
+      "price": 180.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a259f1b3_e06e9a78-02f0-4625-84c2-28f486d81d11_sm.webp",
@@ -339,7 +339,7 @@
     {
       "id": "prod-6CDegw",
       "name": "Cartera blanco monograma con cereza",
-      "price": 173.0,
+      "price": 180.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/46f28ec0_27c6ca07-aa21-4a39-86ab-fd48c414929f_sm.webp",
@@ -354,7 +354,7 @@
     {
       "id": "prod-GCtazA",
       "name": "Cartera ejecutiva guess negro",
-      "price": 238.0,
+      "price": 245.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2cbe1f18_88a6f4af-2f3c-4f79-af70-ff066fd3f075_sm.webp",
@@ -369,7 +369,7 @@
     {
       "id": "prod-rQbbRg",
       "name": "Cartera elegante grande marrón Guess",
-      "price": 273.0,
+      "price": 280.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2958af33_8650b54b-7024-4e4f-a5dd-a9d903b0b42b_sm.webp",
@@ -385,7 +385,7 @@
     {
       "id": "prod-j2aBqA",
       "name": "Cartera grande azul monograma Guess 3 compartimentos",
-      "price": 253.0,
+      "price": 260.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0126a544_8684ffe6-c279-4511-93d2-45481f5e781e_sm.webp",
@@ -401,7 +401,7 @@
     {
       "id": "prod-Aj4biQ",
       "name": "Cartera grande con 2 compartimentos internos",
-      "price": 223.0,
+      "price": 230.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7dfef17e_3de6b23a-b7cc-4181-a104-ad5a9c813fd5_sm.webp",
@@ -417,7 +417,7 @@
     {
       "id": "prod-lVKQoA",
       "name": "Cartera grande con cierre anne klein",
-      "price": 173.0,
+      "price": 180.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/42c9b0cb_0330819b-3d96-4f54-b909-9570230e17a8_sm.webp",
@@ -432,7 +432,7 @@
     {
       "id": "prod-BfLJew",
       "name": "Cartera grande guess 3 compartimentos",
-      "price": 248.0,
+      "price": 255.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9f4e2081_93b28e2b-e009-4c06-bbf4-f051937426bf_sm.webp",
@@ -448,7 +448,7 @@
     {
       "id": "prod-00wUDQ",
       "name": "Cartera grande guess 3 compartimentos negro",
-      "price": 248.0,
+      "price": 255.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0693cec9_df02b796-b465-42c0-828d-3040ed83082b_sm.webp",
@@ -464,7 +464,7 @@
     {
       "id": "prod-8GtoAA",
       "name": "Cartera grande laptop guess mas cartera pequeña",
-      "price": 243.0,
+      "price": 250.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1ec95c8_945130e2-ab1a-4192-9881-47ea23f25b9b_sm.webp",
@@ -480,7 +480,7 @@
     {
       "id": "prod-uLvsJQ",
       "name": "Cartera grande marrón monograma guess con cartera adicional",
-      "price": 243.0,
+      "price": 250.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/cbbc1ac6_e6e22845-ed63-4a88-826b-105f8b1f441d_sm.webp",
@@ -496,7 +496,7 @@
     {
       "id": "prod-f4pdhw",
       "name": "Cartera grande negro guess 3 compartimentos",
-      "price": 248.0,
+      "price": 255.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9c967f15_ed5e319c-fb6b-484c-90d2-e39affc4b34e_sm.webp",
@@ -512,7 +512,7 @@
     {
       "id": "prod-Ljr2gw",
       "name": "Cartera grande negro guess con cartera adicional",
-      "price": 243.0,
+      "price": 250.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/612db4c6_27d6cab3-832e-4951-a37f-e67f493ada55_sm.webp",
@@ -527,7 +527,7 @@
     {
       "id": "prod-MmKbqA",
       "name": "Cartera grande negro guess con placa",
-      "price": 263.0,
+      "price": 270.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e88b4317_f4e19f15-5747-46aa-a3a6-c823e8214302_sm.webp",
@@ -542,7 +542,7 @@
     {
       "id": "prod-s33oew",
       "name": "Cartera grande para laptop Tommy 3 compartimentos",
-      "price": 203.0,
+      "price": 210.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b2953a44_1e0b68d4-fda1-46cf-a293-f0811e27fbbe_sm.webp",
@@ -558,7 +558,7 @@
     {
       "id": "prod-flMOLg",
       "name": "Cartera grande rosa monograma Guess 3 compartimentos",
-      "price": 253.0,
+      "price": 260.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/fbfae75a_858e9e7c-fa40-436d-9cc5-42fdf1c2a682_sm.webp",
@@ -574,7 +574,7 @@
     {
       "id": "prod-oEJYlg",
       "name": "Cartera grande vainilla Guess",
-      "price": 238.0,
+      "price": 245.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0ac48081_ffcdde3f-599e-4f1b-b8aa-d638f2758a80_sm.webp",
@@ -589,7 +589,7 @@
     {
       "id": "prod-cYiiVg",
       "name": "Cartera grande vainilla monograma",
-      "price": 198.0,
+      "price": 205.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/afc2f123_4ff1d12f-d0ba-43ab-9ec1-45e6c560b471_sm.webp",
@@ -605,7 +605,7 @@
     {
       "id": "prod-VvAGqw",
       "name": "Cartera grande vainilla para laptop Tommy",
-      "price": 198.0,
+      "price": 205.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/319caf70_e0100de5-ef58-4e02-b0bf-0133e6181cc9_sm.webp",
@@ -622,7 +622,7 @@
     {
       "id": "prod-n40CYQ",
       "name": "Cartera Guess con franja",
-      "price": 258.0,
+      "price": 265.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/85b439c1_70b9f366-0b71-4345-b7ca-15f5d53f6472_sm.webp",
@@ -637,7 +637,7 @@
     {
       "id": "prod-0d71IQ",
       "name": "Cartera marrón monograma guess",
-      "price": 238.0,
+      "price": 245.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/44027cbc_6cf6f8aa-f22c-4b85-8dea-ecc8360b01c1_sm.webp",
@@ -652,7 +652,7 @@
     {
       "id": "prod-INfIKw",
       "name": "Cartera roja nautica monograma con strap",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c54c664e_26cc3b8a-d016-4463-bf73-c12baa5f1f4f_sm.webp",
@@ -667,7 +667,7 @@
     {
       "id": "prod-6cIu1A",
       "name": "Duo de necesser Guess monograma maquillaje",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c81117ff_659580f5-b525-46c3-ae7c-772d41db65b5_sm.webp",
@@ -682,7 +682,7 @@
     {
       "id": "prod-aKNyDQ",
       "name": "Dúo de monederos Nautica Rojo",
-      "price": 91.0,
+      "price": 98.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e6b8d9c0_82ef544b-0859-47c3-8490-0cd2b22f2b09_sm.webp",
@@ -697,7 +697,7 @@
     {
       "id": "prod-Uho-RA",
       "name": "Dúo de necesser amarillo Guess",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d27b1680_057f41a7-f500-4a79-b7d1-cf66f90e7ab2_sm.webp",
@@ -712,7 +712,7 @@
     {
       "id": "prod-vD451Q",
       "name": "Dúo de necesseres cerezas azul",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/41f862ea_c22a0012-8e44-4304-82a0-bc153e3b7cbe_sm.webp",
@@ -727,7 +727,7 @@
     {
       "id": "prod-YAY7Aw",
       "name": "Dúo de necesseres cerezas Guess",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc3cc732_3c138c65-cb7c-4bd7-b093-362cd19a21a0_sm.webp",
@@ -742,7 +742,7 @@
     {
       "id": "prod-xLeEUA",
       "name": "Dúo de necesseres Guess Raffia",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/03e599e5_01315233-475d-49eb-9ee2-0c6f638ed5aa_sm.webp",
@@ -757,7 +757,7 @@
     {
       "id": "prod-xm1MGg",
       "name": "Dúo de necesseres negro monograma",
-      "price": 118.0,
+      "price": 125.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/652a15f6_9b0d1570-e781-49b6-8b9b-997eae901cec_sm.webp",
@@ -772,7 +772,7 @@
     {
       "id": "prod-U5jtjg",
       "name": "Guess Bolso Hombro Cerezas Cuadros Rosa Blanco PVC Mujer",
-      "price": 218.0,
+      "price": 225.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d541db8c_cc88eec8-9b4a-4eea-a2f9-7d0af649d58d_sm.webp",
@@ -787,7 +787,7 @@
     {
       "id": "prod-dHnlrQ",
       "name": "Mochila cerezas guess",
-      "price": 248.0,
+      "price": 255.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9c3be765_88ea05d0-44e2-4462-a2ab-15012f5fc729_sm.webp",
@@ -802,7 +802,7 @@
     {
       "id": "prod-lVq9Hw",
       "name": "Mochila jean Karl Lagerfeld",
-      "price": 273.0,
+      "price": 280.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/eebe628c_f9c1708c-9833-4458-9a01-c42034c6302e_sm.webp",
@@ -818,7 +818,7 @@
     {
       "id": "prod-jBzdLw",
       "name": "Mochila negro con franja Tommy",
-      "price": 193.0,
+      "price": 200.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6c8dad34_c4d84c9a-8a5b-49fb-8d80-efa685776426_sm.webp",
@@ -834,7 +834,7 @@
     {
       "id": "prod-j68h9w",
       "name": "Mochila rosa monograma Guess",
-      "price": 223.0,
+      "price": 230.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8a5e4c28_3d812b11-921b-42ef-8899-32dd179e57e1_sm.webp",
@@ -850,7 +850,7 @@
     {
       "id": "prod-1Hwxxw",
       "name": "Mochila Tommy Hilfiguer azul marino monograma",
-      "price": 203.0,
+      "price": 210.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/94a09b8f_ac7e069b-f621-4539-94a5-b3ada15fc19a_sm.webp",
@@ -865,7 +865,7 @@
     {
       "id": "prod-f9pKdg",
       "name": "Morral azul monograma Tommy",
-      "price": 138.0,
+      "price": 145.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f4182d1_9e99562f-4b02-40e5-8801-e03563a7a6ff_sm.webp",
@@ -880,7 +880,7 @@
     {
       "id": "prod-rF-nXg",
       "name": "Morral blanco con cadena Steve Madden",
-      "price": 163.0,
+      "price": 170.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d1041c0c_c5a99508-711a-44d6-909b-49bc560941a1_sm.webp",
@@ -896,7 +896,7 @@
     {
       "id": "prod-qQLHBg",
       "name": "Morral floreado",
-      "price": 193.0,
+      "price": 200.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a02adc70_d2edd7a3-da5f-4e73-858b-f2cd641870f5_sm.webp",
@@ -912,7 +912,7 @@
     {
       "id": "prod-QjeqlA",
       "name": "Morral floreado Guess",
-      "price": 193.0,
+      "price": 200.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/be28604a_e77efd11-e34e-4269-a16e-4ad124ae9a71_sm.webp",
@@ -925,7 +925,7 @@
     {
       "id": "prod-aZwqZA",
       "name": "Morral Guess monograma fresas",
-      "price": 193.0,
+      "price": 200.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b895d9d7_c9ce371a-7834-47eb-bc3b-577b365ecd17_sm.webp",
@@ -940,7 +940,7 @@
     {
       "id": "prod-r0IAIQ",
       "name": "Morral marrón Nautica con strap",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dea23807_bbef1e6d-fb39-4979-844a-76efcb64079a_sm.webp",
@@ -955,7 +955,7 @@
     {
       "id": "prod-ZLvipA",
       "name": "Morral monograma colores Guess mediano",
-      "price": 193.0,
+      "price": 200.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6d167d52_af7756ad-03cd-485d-a0fc-7f7c304deda6_sm.webp",
@@ -970,7 +970,7 @@
     {
       "id": "prod-EQffMQ",
       "name": "Morral nautica 3 colores impermeable",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d07ed346_1e401309-1793-4bf7-bffc-9e134e132c3e_sm.webp",
@@ -985,7 +985,7 @@
     {
       "id": "prod-x3G-Mw",
       "name": "Morral negro monograma Steve Madden",
-      "price": 138.0,
+      "price": 145.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8976df4a_03a54b54-aff4-4bd1-8d0f-ddcdea7d72de_sm.webp",
@@ -1001,7 +1001,7 @@
     {
       "id": "prod-kXT35w",
       "name": "Morral negro Polo",
-      "price": 103.0,
+      "price": 110.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bde3034b_feffb1d8-8ad4-41b7-9f43-d9cdbe8039c1_sm.webp",
@@ -1016,7 +1016,7 @@
     {
       "id": "prod-khtc-g",
       "name": "Morral rojo strap Nautica",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6125c784_a2073d28-df0f-4044-a6b8-d1191711b3d8_sm.webp",
@@ -1031,7 +1031,7 @@
     {
       "id": "prod-zhK8dA",
       "name": "Morral rojo tommy strap",
-      "price": 131.0,
+      "price": 138.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/3fa1212f_c99b8523-b3f5-46a2-9a63-6e988e3236ee_sm.webp",
@@ -1046,7 +1046,7 @@
     {
       "id": "prod-YphqTw",
       "name": "Morral tommy 3 colores",
-      "price": 138.0,
+      "price": 145.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/56aa1989_7cfd5911-6e96-46ca-b960-fcc74002a1d2_sm.webp",
@@ -1061,7 +1061,7 @@
     {
       "id": "prod-qeepVg",
       "name": "Muñequera beige monograma para celular tommy",
-      "price": 108.0,
+      "price": 115.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ddb1910f_034b4778-f982-45ab-81a0-af024962462a_sm.webp",
@@ -1076,7 +1076,7 @@
     {
       "id": "prod-b3piTw",
       "name": "Muñequera rojo monograma Nautica con monedero",
-      "price": 78.0,
+      "price": 85.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2c6af86c_9e6ba642-1f9a-4211-b20f-3b978c3a394b_sm.webp",
@@ -1091,7 +1091,7 @@
     {
       "id": "prod-JZLsNA",
       "name": "Nautica Bolso Cruzado Mujer Blanco Multicolor Logo N Bandolera Ajustable",
-      "price": 148.0,
+      "price": 155.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/447d430e_8539d166-b429-496c-aa26-7a4d4bb015a4_sm.webp",
@@ -1108,7 +1108,7 @@
     {
       "id": "prod-KEBHgA",
       "name": "Necesser dos cierres gris Guess",
-      "price": 108.0,
+      "price": 115.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4a69a91a_2e80bef9-5aaf-4609-a822-1eacce0d6f59_sm.webp",
@@ -1124,7 +1124,7 @@
     {
       "id": "prod-BqLxnw",
       "name": "Necesser floreado Guess",
-      "price": 103.0,
+      "price": 110.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/14985223_36c7dcf0-7ef9-43cf-b87a-6b6fb924740d_sm.webp",
@@ -1139,7 +1139,7 @@
     {
       "id": "prod-TAvdBQ",
       "name": "Necesser grande gris Guess",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0303862c_71a4f2a9-e1c1-42cb-bc49-9f243ce8ea68_sm.webp",
@@ -1154,7 +1154,7 @@
     {
       "id": "prod-N-Syfg",
       "name": "Necesser grande rosa monograma flores Guess",
-      "price": 123.0,
+      "price": 130.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/1aa71412_a4db88df-6353-4544-8e31-2956b8fa673e_sm.webp",
@@ -1169,7 +1169,7 @@
     {
       "id": "prod-tsbifQ",
       "name": "Necesser grande rosa monograma Guess",
-      "price": 118.0,
+      "price": 125.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7a998849_26677e98-02b9-4aef-89a5-ece240cd9f8c_sm.webp",
@@ -1184,7 +1184,7 @@
     {
       "id": "prod-9Egl3Q",
       "name": "Necesser guess pequeño negro monograma",
-      "price": 103.0,
+      "price": 110.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/73ada1f9_4035b8f5-2dbb-4ae7-b973-1cfe9004f9f3_sm.webp",
@@ -1199,7 +1199,7 @@
     {
       "id": "prod-Yb5izg",
       "name": "Necesser marrón monograma floreado",
-      "price": 103.0,
+      "price": 110.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e3ef75e1_d98bd708-ca26-423a-9240-848d67b3ea80_sm.webp",
@@ -1214,7 +1214,7 @@
     {
       "id": "prod-Z2QE2g",
       "name": "Necesser negro dos compartimentos unisex",
-      "price": 128.0,
+      "price": 135.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/217e6b70_1f46476e-4806-48b7-bfaa-b4b98f2485bf_sm.webp",
@@ -1230,7 +1230,7 @@
     {
       "id": "prod-6ma8eA",
       "name": "Necesser para caballero con asa guess",
-      "price": 93.0,
+      "price": 100.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/48674d13_bb50d52e-901a-4022-93b4-cd7c961a9e5c_sm.webp",
@@ -1246,7 +1246,7 @@
     {
       "id": "prod-tiwtmg",
       "name": "Necesser rosa Guess grande",
-      "price": 108.0,
+      "price": 115.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6801e317_49040cdb-9186-4432-853f-e36a5fbcb8c3_sm.webp",
@@ -1261,7 +1261,7 @@
     {
       "id": "prod-V6GzfQ",
       "name": "Necesser rosa monograma mediano",
-      "price": 103.0,
+      "price": 110.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1c64ebb_94eadf34-7f7a-4005-9fa9-1de9d937a6a3_sm.webp",
@@ -1276,7 +1276,7 @@
     {
       "id": "prod-yF0EXA",
       "name": "Necesser rosado monograma Guess grande",
-      "price": 111.0,
+      "price": 118.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/65129d14_e2c1cc3c-8dab-48c5-8b7c-5bb5575146d6_sm.webp",
@@ -1291,7 +1291,7 @@
     {
       "id": "prod-qHuo2A",
       "name": "Necesser vainilla guess",
-      "price": 103.0,
+      "price": 110.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/216bbf28_b8bb0a97-48ed-4c1e-84b9-3560a528fbd2_sm.webp",
@@ -1306,7 +1306,7 @@
     {
       "id": "prod-31rUDA",
       "name": "Necesser vainilla limons guess",
-      "price": 103.0,
+      "price": 110.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/685dc254_abf4749a-c4dc-4dd3-a069-7c0a470bf792_sm.webp",
@@ -1322,7 +1322,7 @@
     {
       "id": "prod-9lCcvg",
       "name": "Pack morrales guess",
-      "price": 523.0,
+      "price": 530.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/86fbbf29_768c9075-b908-457f-a908-626f23c83d0b_sm.webp",
@@ -1337,7 +1337,7 @@
     {
       "id": "prod-tdNtzA",
       "name": "Steve Madden Bolso Bandolera Blanco Cuero Sintético Logo Grabado Cadena Mujer",
-      "price": 148.0,
+      "price": 155.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/97ae22a4_6e1986ef-9ace-4b1a-b6f8-473fa723fb4e_sm.webp",
@@ -1352,7 +1352,7 @@
     {
       "id": "prod-iK9qRQ",
       "name": "Tote azul monograma pequelo Tommy",
-      "price": 138.0,
+      "price": 145.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/baed00c4_ac268623-90c1-446f-9536-36eaf57b3f87_sm.webp",
@@ -1367,7 +1367,7 @@
     {
       "id": "prod-3O1tnw",
       "name": "Tote grande negro monograma Guess",
-      "price": 258.0,
+      "price": 265.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/900aaef7_63233c66-6a41-4398-9c8e-a7a4b3216860_sm.webp",
@@ -1382,7 +1382,7 @@
     {
       "id": "prod--b07yg",
       "name": "Tote grande para laptop y cierre tommy",
-      "price": 198.0,
+      "price": 205.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ab6f35d5_4783910c-3110-4d88-b835-ed60c9a1fad5_sm.webp",
@@ -1398,7 +1398,7 @@
     {
       "id": "prod-Sg3ZIQ",
       "name": "Tote guess gris monograma",
-      "price": 208.0,
+      "price": 215.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dd28bc01_67d04abc-0b82-4661-a17a-e4366fa687ab_sm.webp",
@@ -1414,7 +1414,7 @@
     {
       "id": "prod-7Ns6Hg",
       "name": "Tote mediana azul monograma granja Tommy",
-      "price": 173.0,
+      "price": 180.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/67ba8ba8_f16c549c-7f26-4a85-be4d-0c06ee21e170_sm.webp",
@@ -1430,7 +1430,7 @@
     {
       "id": "prod-taP4ew",
       "name": "Tote mediana marrón guess con strap",
-      "price": 233.0,
+      "price": 240.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ca2864df_da1acde6-6e6f-451e-b067-e8a1ba98e141_sm.webp",
@@ -1446,7 +1446,7 @@
     {
       "id": "prod-9msdog",
       "name": "Tote mediana negra monograma Guess",
-      "price": 211.0,
+      "price": 218.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a318f53b_6ee78b3c-a963-450c-9d87-b58c78ca0a98_sm.webp",
@@ -1462,7 +1462,7 @@
     {
       "id": "prod-eMy3Qw",
       "name": "Tote mediana negro monograma Tommy",
-      "price": 173.0,
+      "price": 180.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7f7bcc1b_17732a65-5feb-42ac-9597-ac14bcd8484d_sm.webp",
@@ -1478,7 +1478,7 @@
     {
       "id": "prod-IrSwKQ",
       "name": "Tote negro monograma Guess 3 compartimentos",
-      "price": 233.0,
+      "price": 240.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0fc27384_e4bf3621-1579-4ea6-b806-7dbad4751b40_sm.webp",
@@ -1493,7 +1493,7 @@
     {
       "id": "prod--Sptyw",
       "name": "Tote vainilla monograma 3 compartimentos Tommy",
-      "price": 188.0,
+      "price": 195.0,
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/78f3fbf0_549652dd-dcd8-4eb5-9e47-30241e8b2b95_sm.webp",
