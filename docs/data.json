@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-14T11:00:52.143216-05:00",
-  "count": 95,
+  "updated": "2026-07-14T12:19:01.805361-05:00",
+  "count": 91,
   "products": [
     {
       "id": "prod--nJI-A",
@@ -240,23 +240,6 @@
       ]
     },
     {
-      "id": "prod-fimRfw",
-      "name": "Billetera negro monograma Tommy",
-      "price": 110.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/5d27c165_5e8ba2dd-dab9-443e-99b1-8d84ae2972ab_sm.webp",
-      "categories": [
-        "Billeteras"
-      ],
-      "brand": "Tommy Hilfiger",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/5d27c165_5e8ba2dd-dab9-443e-99b1-8d84ae2972ab_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ce447fca_70d8ba3d-00c5-4709-b2b2-2a538a061e55_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/64f3cb99_c5bc7b8b-9fb3-4623-bf10-17db73e5a791_sm.webp"
-      ]
-    },
-    {
       "id": "prod-Urd9RA",
       "name": "Billetera sobre camel Tommy",
       "price": 120.0,
@@ -475,22 +458,6 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1ec95c8_945130e2-ab1a-4192-9881-47ea23f25b9b_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8ded9e6c_b4be172e-18f0-4816-9a35-9e2d7410b793_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-uLvsJQ",
-      "name": "Cartera grande marrón monograma guess con cartera adicional",
-      "price": 250.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/cbbc1ac6_e6e22845-ed63-4a88-826b-105f8b1f441d_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/cbbc1ac6_e6e22845-ed63-4a88-826b-105f8b1f441d_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/98f01315_75b2e9de-833f-45a3-b6d4-6cc40f06cf7c_sm.webp"
       ]
     },
     {
@@ -1320,21 +1287,6 @@
       ]
     },
     {
-      "id": "prod-iK9qRQ",
-      "name": "Tote azul monograma pequelo Tommy",
-      "price": 145.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/baed00c4_ac268623-90c1-446f-9536-36eaf57b3f87_sm.webp",
-      "categories": [
-        "Carteras Tommy Hilfiguer"
-      ],
-      "brand": "Tommy Hilfiger",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/baed00c4_ac268623-90c1-446f-9536-36eaf57b3f87_sm.webp"
-      ]
-    },
-    {
       "id": "prod-3O1tnw",
       "name": "Tote grande negro monograma Guess",
       "price": 265.0,
@@ -1382,19 +1334,19 @@
       ]
     },
     {
-      "id": "prod-7Ns6Hg",
-      "name": "Tote mediana azul monograma granja Tommy",
+      "id": "prod-7GUfoQ",
+      "name": "Tote mediana blanco monograma Tommy",
       "price": 180.0,
       "status": "Disponible",
       "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/67ba8ba8_f16c549c-7f26-4a85-be4d-0c06ee21e170_sm.webp",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0ebb59a3_840b79ed-6bde-44c4-ba27-4d79e3e9d230_sm.webp",
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
       "brand": "Tommy Hilfiger",
       "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/67ba8ba8_f16c549c-7f26-4a85-be4d-0c06ee21e170_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a27a6fff_1a8e5542-f9f9-4f4a-a63e-1dbf3fe5bdf5_sm.webp"
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0ebb59a3_840b79ed-6bde-44c4-ba27-4d79e3e9d230_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/3fc4d2a2_aca83c84-c194-4d53-9b3c-a2ca193e6c0b_sm.webp"
       ]
     },
     {
@@ -1427,22 +1379,6 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a318f53b_6ee78b3c-a963-450c-9d87-b58c78ca0a98_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f9dcae5_b6056aa9-11ba-4ec8-91d7-9a436e93863f_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-eMy3Qw",
-      "name": "Tote mediana negro monograma Tommy",
-      "price": 180.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7f7bcc1b_17732a65-5feb-42ac-9597-ac14bcd8484d_sm.webp",
-      "categories": [
-        "Carteras Tommy Hilfiguer"
-      ],
-      "brand": "Tommy Hilfiger",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7f7bcc1b_17732a65-5feb-42ac-9597-ac14bcd8484d_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4504e028_d9529636-066f-42bf-a427-496ac6480006_sm.webp"
       ]
     },
     {
