@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-14T09:00:57.013846-05:00",
-  "count": 97,
+  "updated": "2026-07-14T09:31:51.794133-05:00",
+  "count": 95,
   "products": [
     {
       "id": "prod--nJI-A",
@@ -620,21 +620,6 @@
       ]
     },
     {
-      "id": "prod-n40CYQ",
-      "name": "Cartera Guess con franja",
-      "price": 265.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/85b439c1_70b9f366-0b71-4345-b7ca-15f5d53f6472_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/85b439c1_70b9f366-0b71-4345-b7ca-15f5d53f6472_sm.webp"
-      ]
-    },
-    {
       "id": "prod-0d71IQ",
       "name": "Cartera marrón monograma guess",
       "price": 245.0,
@@ -845,21 +830,6 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8a5e4c28_3d812b11-921b-42ef-8899-32dd179e57e1_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9459b71b_4cba5dc1-1294-437c-ab95-aab435c0086b_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-1Hwxxw",
-      "name": "Mochila Tommy Hilfiguer azul marino monograma",
-      "price": 210.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/94a09b8f_ac7e069b-f621-4539-94a5-b3ada15fc19a_sm.webp",
-      "categories": [
-        "Mochilas"
-      ],
-      "brand": "Tommy Hilfiger",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/94a09b8f_ac7e069b-f621-4539-94a5-b3ada15fc19a_sm.webp"
       ]
     },
     {
