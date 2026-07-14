@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T18:58:43.718831-05:00",
-  "count": 99,
+  "updated": "2026-07-13T19:53:59.915860-05:00",
+  "count": 97,
   "products": [
     {
       "id": "prod--nJI-A",
@@ -399,22 +399,6 @@
       ]
     },
     {
-      "id": "prod-JG6yGg",
-      "name": "Cartera grande celeste guess 3 compartimentos",
-      "price": 248.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d5de9cbb_322d2edd-345c-48a2-9c78-cfe34e030e28_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d5de9cbb_322d2edd-345c-48a2-9c78-cfe34e030e28_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0ffc5786_4f4a7715-abcb-4c8a-8044-4c1025b94d22_sm.webp"
-      ]
-    },
-    {
       "id": "prod-Aj4biQ",
       "name": "Cartera grande con 2 compartimentos internos",
       "price": 223.0,
@@ -678,21 +662,6 @@
       "brand": "Nautica",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c54c664e_26cc3b8a-d016-4463-bf73-c12baa5f1f4f_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-IJS-CA",
-      "name": "Cartera rosa Steve Madden con peluche vaquita",
-      "price": 163.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f06a0569_bc679b2c-6d8f-4f24-83c8-87ec6dbeada2_sm.webp",
-      "categories": [
-        "Carteras Steve Madden"
-      ],
-      "brand": "Steve Madden",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f06a0569_bc679b2c-6d8f-4f24-83c8-87ec6dbeada2_sm.webp"
       ]
     },
     {
