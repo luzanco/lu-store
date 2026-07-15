@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-14T19:52:12.768214-05:00",
-  "count": 91,
+  "updated": "2026-07-14T22:50:42.764583-05:00",
+  "count": 89,
   "products": [
     {
       "id": "prod--nJI-A",
@@ -445,22 +445,6 @@
       ]
     },
     {
-      "id": "prod-8GtoAA",
-      "name": "Cartera grande laptop guess mas cartera pequeña",
-      "price": 250.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1ec95c8_945130e2-ab1a-4192-9881-47ea23f25b9b_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1ec95c8_945130e2-ab1a-4192-9881-47ea23f25b9b_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8ded9e6c_b4be172e-18f0-4816-9a35-9e2d7410b793_sm.webp"
-      ]
-    },
-    {
       "id": "prod-f4pdhw",
       "name": "Cartera grande negro guess 3 compartimentos",
       "price": 255.0,
@@ -474,21 +458,6 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9c967f15_ed5e319c-fb6b-484c-90d2-e39affc4b34e_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bda71524_cf29df06-7503-44a1-8409-453a20ae633a_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-Ljr2gw",
-      "name": "Cartera grande negro guess con cartera adicional",
-      "price": 250.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/612db4c6_27d6cab3-832e-4951-a37f-e67f493ada55_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/612db4c6_27d6cab3-832e-4951-a37f-e67f493ada55_sm.webp"
       ]
     },
     {
