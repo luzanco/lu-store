@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-16T16:35:01.815498-05:00",
-  "count": 88,
+  "updated": "2026-07-16T17:33:14.246672-05:00",
+  "count": 90,
   "products": [
+    {
+      "id": "prod-xCU9SQ",
+      "name": "Baguete mediana negra Tommy",
+      "price": 160.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f78b472e_3c84c4c7-a451-4513-82d4-62afb2bfde42_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f78b472e_3c84c4c7-a451-4513-82d4-62afb2bfde42_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-5YdNaA",
+      "name": "Baguete mediana roja Tommy",
+      "price": 160.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/699494b2_ed492423-4878-4724-a442-b1aaa2bf6c19_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/699494b2_ed492423-4878-4724-a442-b1aaa2bf6c19_sm.webp"
+      ]
+    },
     {
       "id": "prod--nJI-A",
       "name": "Baguette camel Steve Madden con cadena y charms",
