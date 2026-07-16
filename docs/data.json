@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-16T10:55:53.375697-05:00",
-  "count": 89,
+  "updated": "2026-07-16T12:04:44.059909-05:00",
+  "count": 88,
   "products": [
     {
       "id": "prod--nJI-A",
@@ -734,22 +734,6 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/eebe628c_f9c1708c-9833-4458-9a01-c42034c6302e_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/22cdb450_00aef6b9-6f0c-4329-aba4-6bc46495d4a6_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-jBzdLw",
-      "name": "Mochila negro con franja Tommy",
-      "price": 200.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6c8dad34_c4d84c9a-8a5b-49fb-8d80-efa685776426_sm.webp",
-      "categories": [
-        "Mochilas"
-      ],
-      "brand": "Tommy Hilfiger",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6c8dad34_c4d84c9a-8a5b-49fb-8d80-efa685776426_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ab1f3b24_b5fcf950-1f56-4f0f-a693-0e543316c60e_sm.webp"
       ]
     },
     {
