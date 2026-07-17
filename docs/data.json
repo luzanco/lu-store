@@ -1,35 +1,20 @@
 {
-  "updated": "2026-07-17T09:20:49.580771-05:00",
+  "updated": "2026-07-17T10:48:55.853944-05:00",
   "count": 93,
   "products": [
     {
-      "id": "prod-xCU9SQ",
-      "name": "Baguete mediana negra Tommy",
-      "price": 160.0,
+      "id": "prod-NT5z0g",
+      "name": "Baguete grane negro Tommy",
+      "price": 155.0,
       "status": "Disponible",
       "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f78b472e_3c84c4c7-a451-4513-82d4-62afb2bfde42_sm.webp",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4d9f3d20_2a855a16-ba4f-434d-a8ba-0166f56f1eb4_sm.webp",
       "categories": [
         "Carteras Tommy Hilfiguer"
       ],
       "brand": "Tommy Hilfiger",
       "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f78b472e_3c84c4c7-a451-4513-82d4-62afb2bfde42_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-5YdNaA",
-      "name": "Baguete mediana roja Tommy",
-      "price": 160.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/699494b2_ed492423-4878-4724-a442-b1aaa2bf6c19_sm.webp",
-      "categories": [
-        "Carteras Tommy Hilfiguer"
-      ],
-      "brand": "Tommy Hilfiger",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/699494b2_ed492423-4878-4724-a442-b1aaa2bf6c19_sm.webp"
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4d9f3d20_2a855a16-ba4f-434d-a8ba-0166f56f1eb4_sm.webp"
       ]
     },
     {
@@ -45,6 +30,21 @@
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/004679bf_9c7fbb0f-b09c-4ea3-8497-0db2dc6f1575_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-H3tuYQ",
+      "name": "Baguete rojo grande Tommy",
+      "price": 155.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f2b5b84_7f9ff6b6-f689-4815-aaf3-42782b3dcf61_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f2b5b84_7f9ff6b6-f689-4815-aaf3-42782b3dcf61_sm.webp"
       ]
     },
     {
@@ -77,21 +77,6 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/980874dd_e54aa3f1-6f3f-4b22-a4b4-02654ee04899_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c17f4647_e85d1a81-fdfd-4872-89a0-eb53e40e1c7a_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-fWpOBg",
-      "name": "Baguette juicy de fresa",
-      "price": 135.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/819a657a_0f9b22cf-c858-4cf1-b302-ea770a5f2bcc_sm.webp",
-      "categories": [
-        "Carteras Juicy Couture"
-      ],
-      "brand": "Juicy Couture",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/819a657a_0f9b22cf-c858-4cf1-b302-ea770a5f2bcc_sm.webp"
       ]
     },
     {
@@ -334,22 +319,6 @@
       ]
     },
     {
-      "id": "prod-ANH2GA",
-      "name": "Cartera beige monograma doble correa",
-      "price": 180.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7fc7c10f_009f7841-ebd1-43e2-87da-751058085a52_sm.webp",
-      "categories": [
-        "Carteras Steve Madden"
-      ],
-      "brand": "Steve Madden",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7fc7c10f_009f7841-ebd1-43e2-87da-751058085a52_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dd50dafb_4d3b07ea-112e-48dd-94ca-8c0671250304_sm.webp"
-      ]
-    },
-    {
       "id": "prod-RM1yfQ",
       "name": "Cartera beige Steve Madden con cereza",
       "price": 180.0,
@@ -424,6 +393,21 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0126a544_8684ffe6-c279-4511-93d2-45481f5e781e_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ce840dc8_22da4372-4e2e-46af-a2cc-6019af0c2bdd_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-OOKTPA",
+      "name": "Cartera grande camel monograma Steve Madden",
+      "price": 220.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2129a4f9_758c7fc3-b3f7-44dc-87c1-4992fe05b2e3_sm.webp",
+      "categories": [
+        "Carteras Steve Madden"
+      ],
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2129a4f9_758c7fc3-b3f7-44dc-87c1-4992fe05b2e3_sm.webp"
       ]
     },
     {
@@ -534,6 +518,21 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b2953a44_1e0b68d4-fda1-46cf-a293-f0811e27fbbe_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/db65b446_0ea56ed4-e083-404b-b8ca-82fe67050933_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-KWTChw",
+      "name": "Cartera grande puffer vainilla Reebok",
+      "price": 115.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/29082063_68c62d00-09b5-4723-ac72-4604632b6af9_sm.webp",
+      "categories": [
+        "Liquidación"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/29082063_68c62d00-09b5-4723-ac72-4604632b6af9_sm.webp"
       ]
     },
     {
@@ -1304,18 +1303,19 @@
       ]
     },
     {
-      "id": "prod-tdNtzA",
-      "name": "Steve Madden Bolso Bandolera Blanco Cuero Sintético Logo Grabado Cadena Mujer",
-      "price": 155.0,
+      "id": "prod-4lQAgw",
+      "name": "Polera gris dama xs Gap",
+      "price": 168.0,
       "status": "Disponible",
       "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/97ae22a4_6e1986ef-9ace-4b1a-b6f8-473fa723fb4e_sm.webp",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/17acaa09_bfc3db0e-e276-4aa0-b92d-1e0fdc0dfa2b_sm.webp",
       "categories": [
-        "Carteras Steve Madden"
+        "Ropa"
       ],
-      "brand": "Steve Madden",
+      "brand": "Otras marcas",
       "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/97ae22a4_6e1986ef-9ace-4b1a-b6f8-473fa723fb4e_sm.webp"
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/17acaa09_bfc3db0e-e276-4aa0-b92d-1e0fdc0dfa2b_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/57094e01_72be35de-f057-4a12-835d-71b3e733c020_sm.webp"
       ]
     },
     {
