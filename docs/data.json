@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-17T07:49:50.321684-05:00",
-  "count": 90,
+  "updated": "2026-07-17T09:20:49.580771-05:00",
+  "count": 93,
   "products": [
     {
       "id": "prod-xCU9SQ",
@@ -30,6 +30,21 @@
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/699494b2_ed492423-4878-4724-a442-b1aaa2bf6c19_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-ziGycQ",
+      "name": "Baguete negro franja Tommy",
+      "price": 150.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/004679bf_9c7fbb0f-b09c-4ea3-8497-0db2dc6f1575_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/004679bf_9c7fbb0f-b09c-4ea3-8497-0db2dc6f1575_sm.webp"
       ]
     },
     {
@@ -613,6 +628,24 @@
       "brand": "Nautica",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c54c664e_26cc3b8a-d016-4463-bf73-c12baa5f1f4f_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-NxMCnQ",
+      "name": "Casaca rosa viral Gap dama",
+      "price": 208.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/1aedeb32_4e5fa6ba-339d-41d1-976a-1891480e4ea0_sm.webp",
+      "categories": [
+        "Ropa"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/1aedeb32_4e5fa6ba-339d-41d1-976a-1891480e4ea0_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8e978bc5_70c6354a-5315-4329-97f0-d7616ef28260_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4ff45842_1b38bb42-5563-41f7-ae3d-dab55491dac3_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/11bc65a5_85225840-7955-4a0f-bd3e-582e8effd2ba_sm.webp"
       ]
     },
     {
@@ -1252,6 +1285,22 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/86fbbf29_768c9075-b908-457f-a908-626f23c83d0b_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-J68tvQ",
+      "name": "Polera con cierre para Caballero en L",
+      "price": 160.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0b0bc434_f2d2e536-51d5-4b17-90e5-e7cbf6d179ce_sm.webp",
+      "categories": [
+        "Ropa"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0b0bc434_f2d2e536-51d5-4b17-90e5-e7cbf6d179ce_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/30d54608_2712696c-187a-4d7c-8649-246dac38e8f6_sm.webp"
       ]
     },
     {
