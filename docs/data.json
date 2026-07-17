@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-17T12:53:22.576691-05:00",
-  "count": 93,
+  "updated": "2026-07-17T13:46:18.716145-05:00",
+  "count": 97,
   "products": [
     {
       "id": "prod-NT5z0g",
@@ -15,21 +15,6 @@
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4d9f3d20_2a855a16-ba4f-434d-a8ba-0166f56f1eb4_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-ziGycQ",
-      "name": "Baguete negro franja Tommy",
-      "price": 150.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/004679bf_9c7fbb0f-b09c-4ea3-8497-0db2dc6f1575_sm.webp",
-      "categories": [
-        "Carteras Tommy Hilfiguer"
-      ],
-      "brand": "Tommy Hilfiger",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/004679bf_9c7fbb0f-b09c-4ea3-8497-0db2dc6f1575_sm.webp"
       ]
     },
     {
@@ -765,6 +750,86 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d541db8c_cc88eec8-9b4a-4eea-a2f9-7d0af649d58d_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-ffR9xA",
+      "name": "Lentes guess con estuche",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/007932c5_a51b2f2c-28c0-43eb-acfa-61aa998e944b_sm.webp",
+      "categories": [
+        "Lentes"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/007932c5_a51b2f2c-28c0-43eb-acfa-61aa998e944b_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a1385a13_cc2087f3-090f-4593-bb3f-cbe527c06e4a_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-YD66Rg",
+      "name": "Lentes negros Guess con estuche",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp",
+      "categories": [
+        "Lentes"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/53ac7bc7_20200368-85be-499c-a9b4-be59367ee6a9_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-OzYC8Q",
+      "name": "Lentes negros guess con estuche",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f6e31fc6_ae8d23a6-1bbe-4b3b-a78f-b70ce8680e1f_sm.webp",
+      "categories": [
+        "Lentes"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f6e31fc6_ae8d23a6-1bbe-4b3b-a78f-b70ce8680e1f_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b05e4379_515b9064-d4f4-4b0c-8cce-eeb417d52b7a_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-6YHPUg",
+      "name": "Lentes negros guess con estuche",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e04deef6_ed3fb8ac-51ac-4853-98e8-c758dbc670b4_sm.webp",
+      "categories": [
+        "Lentes"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e04deef6_ed3fb8ac-51ac-4853-98e8-c758dbc670b4_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/74958d78_91d7bfd8-4232-49e1-8985-d6491dbf55bc_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-0x9X4w",
+      "name": "Lentes negros guess con estuche",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/104c0c75_cb12f09f-91c1-4712-9b14-ebe76bb78be0_sm.webp",
+      "categories": [
+        "Lentes"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/104c0c75_cb12f09f-91c1-4712-9b14-ebe76bb78be0_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/90719d92_a28bbfa0-6adc-4037-9e67-472d7656ffdf_sm.webp"
       ]
     },
     {
