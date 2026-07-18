@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T11:33:14.882585-05:00",
-  "count": 97,
+  "updated": "2026-07-18T12:34:10.458119-05:00",
+  "count": 104,
   "products": [
     {
       "id": "prod-NT5z0g",
@@ -285,6 +285,51 @@
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2d91a529_c95a726d-74ae-4535-bf69-f3e98133b473_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/1b068010_2bf5e441-40b2-4eca-a93b-d4127f0907f5_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c510030f_231ae406-1a2d-42be-95eb-a6a8e1c61f9e_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-kZIIPA",
+      "name": "Body lotion super berry",
+      "price": 70.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/45e38bef_90aa2299-e0cc-44a7-9db1-c7861d8b3aa8_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/45e38bef_90aa2299-e0cc-44a7-9db1-c7861d8b3aa8_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-ypdrVQ",
+      "name": "Body scrub super berry",
+      "price": 75.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0526b14b_3fe8514b-715b-4ad8-9bd6-0661783463cc_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0526b14b_3fe8514b-715b-4ad8-9bd6-0661783463cc_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-V8whGQ",
+      "name": "Body wash super berry",
+      "price": 70.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0e0dde3e_9b20e62a-a3ce-4db5-8b9a-3f4ee3d2bac3_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0e0dde3e_9b20e62a-a3ce-4db5-8b9a-3f4ee3d2bac3_sm.webp"
       ]
     },
     {
@@ -1337,6 +1382,36 @@
       ]
     },
     {
+      "id": "prod-Uzg5Lg",
+      "name": "Pack bare",
+      "price": 113.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b5d4bb6d_356978a3-b339-462f-8740-fa2a726973d6_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b5d4bb6d_356978a3-b339-462f-8740-fa2a726973d6_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-4QNAVQ",
+      "name": "Pack bombshell",
+      "price": 113.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b13ccfac_e4a7f46d-b7dd-45ae-a4ed-e1574e3eef86_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b13ccfac_e4a7f46d-b7dd-45ae-a4ed-e1574e3eef86_sm.webp"
+      ]
+    },
+    {
       "id": "prod-9lCcvg",
       "name": "Pack morrales guess",
       "price": 530.0,
@@ -1349,6 +1424,21 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/86fbbf29_768c9075-b908-457f-a908-626f23c83d0b_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-Z5VmTw",
+      "name": "Pack tease",
+      "price": 113.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/fcc51be2_0c44df3d-474d-4031-8b6d-925fae6304e7_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/fcc51be2_0c44df3d-474d-4031-8b6d-925fae6304e7_sm.webp"
       ]
     },
     {
@@ -1381,6 +1471,21 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/17acaa09_bfc3db0e-e276-4aa0-b92d-1e0fdc0dfa2b_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/57094e01_72be35de-f057-4a12-835d-71b3e733c020_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-eQOD9Q",
+      "name": "Splash victoria secret",
+      "price": 65.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0eaec415_ac12eb83-b4f5-4c2a-baf1-1c502f8974e1_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0eaec415_ac12eb83-b4f5-4c2a-baf1-1c502f8974e1_sm.webp"
       ]
     },
     {
