@@ -1,7 +1,22 @@
 {
-  "updated": "2026-07-18T13:32:01.873356-05:00",
-  "count": 106,
+  "updated": "2026-07-18T14:44:56.779177-05:00",
+  "count": 110,
   "products": [
+    {
+      "id": "prod-VkVCRg",
+      "name": "Baguete crema Nautica",
+      "price": 145.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f352828d_824f3695-3d74-4e83-a3e1-c62a8a9b1f53_sm.webp",
+      "categories": [
+        "Gorros"
+      ],
+      "brand": "Nautica",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f352828d_824f3695-3d74-4e83-a3e1-c62a8a9b1f53_sm.webp"
+      ]
+    },
     {
       "id": "prod-NT5z0g",
       "name": "Baguete grane negro Tommy",
@@ -675,6 +690,21 @@
       ]
     },
     {
+      "id": "prod-tK8xOg",
+      "name": "Cartera rosa monograma Guess asas largas",
+      "price": 235.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/39a3d8ce_8bfe1969-a236-4419-8603-ca3cc00fffd1_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/39a3d8ce_8bfe1969-a236-4419-8603-ca3cc00fffd1_sm.webp"
+      ]
+    },
+    {
       "id": "prod-NxMCnQ",
       "name": "Casaca rosa viral Gap dama",
       "price": 208.0,
@@ -1335,6 +1365,21 @@
       ]
     },
     {
+      "id": "prod-tVdZzw",
+      "name": "Necesser negro Juicy",
+      "price": 85.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/deef575f_36e3f2e1-3b3c-444c-a377-503d51ba8ecb_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Juicy Couture",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/deef575f_36e3f2e1-3b3c-444c-a377-503d51ba8ecb_sm.webp"
+      ]
+    },
+    {
       "id": "prod-6ma8eA",
       "name": "Necesser para caballero con asa guess",
       "price": 100.0,
@@ -1643,6 +1688,21 @@
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/78f3fbf0_549652dd-dcd8-4eb5-9e47-30241e8b2b95_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d4cdd126_e8b3f84d-2d68-40b5-97c8-3407a61b5efc_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c5c8c30b_b847e13d-50e9-4559-8338-c7985e79578a_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-lhG9hA",
+      "name": "Zapatillas blancas Tommy dama",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/5df0234a_7b1cff45-3810-48ae-a3c8-29d96cfce588_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/5df0234a_7b1cff45-3810-48ae-a3c8-29d96cfce588_sm.webp"
       ]
     }
   ]
