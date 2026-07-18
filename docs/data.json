@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T12:34:10.458119-05:00",
-  "count": 104,
+  "updated": "2026-07-18T13:32:01.873356-05:00",
+  "count": 106,
   "products": [
     {
       "id": "prod-NT5z0g",
@@ -330,6 +330,21 @@
       "brand": "Otras marcas",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0e0dde3e_9b20e62a-a3ce-4db5-8b9a-3f4ee3d2bac3_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-9NVFTw",
+      "name": "Bsguete raffia Steve Madden",
+      "price": 175.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2b79ea01_5c1e5b79-5851-48b6-bbf3-de688e1fdd28_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2b79ea01_5c1e5b79-5851-48b6-bbf3-de688e1fdd28_sm.webp"
       ]
     },
     {
@@ -814,38 +829,6 @@
       ]
     },
     {
-      "id": "prod-YD66Rg",
-      "name": "Lentes negros Guess con estuche",
-      "price": 210.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp",
-      "categories": [
-        "Lentes"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/53ac7bc7_20200368-85be-499c-a9b4-be59367ee6a9_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-OzYC8Q",
-      "name": "Lentes negros guess con estuche",
-      "price": 210.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f6e31fc6_ae8d23a6-1bbe-4b3b-a78f-b70ce8680e1f_sm.webp",
-      "categories": [
-        "Lentes"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f6e31fc6_ae8d23a6-1bbe-4b3b-a78f-b70ce8680e1f_sm.webp",
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b05e4379_515b9064-d4f4-4b0c-8cce-eeb417d52b7a_sm.webp"
-      ]
-    },
-    {
       "id": "prod-6YHPUg",
       "name": "Lentes negros guess con estuche",
       "price": 210.0,
@@ -875,6 +858,38 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/104c0c75_cb12f09f-91c1-4712-9b14-ebe76bb78be0_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/90719d92_a28bbfa0-6adc-4037-9e67-472d7656ffdf_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-YD66Rg",
+      "name": "Lentes negros Guess con estuche",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp",
+      "categories": [
+        "Lentes"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/53ac7bc7_20200368-85be-499c-a9b4-be59367ee6a9_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-OzYC8Q",
+      "name": "Lentes negros guess con estuche",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f6e31fc6_ae8d23a6-1bbe-4b3b-a78f-b70ce8680e1f_sm.webp",
+      "categories": [
+        "Lentes"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f6e31fc6_ae8d23a6-1bbe-4b3b-a78f-b70ce8680e1f_sm.webp",
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b05e4379_515b9064-d4f4-4b0c-8cce-eeb417d52b7a_sm.webp"
       ]
     },
     {
@@ -1042,6 +1057,21 @@
       "brand": "Nautica",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d07ed346_1e401309-1793-4bf7-bffc-9e134e132c3e_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-c5tzAA",
+      "name": "Morral negro con detalles dorados calvin klein",
+      "price": 260.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b91a9c9f_26cb349a-3698-4e02-a43a-c53d7f474556_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b91a9c9f_26cb349a-3698-4e02-a43a-c53d7f474556_sm.webp"
       ]
     },
     {
@@ -1259,6 +1289,21 @@
       ]
     },
     {
+      "id": "prod-QYR6Bw",
+      "name": "Necesser juicy rosa",
+      "price": 85.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/efd1cb9a_09b2bf7c-99de-4835-bc56-beb0ce19724a_sm.webp",
+      "categories": [
+        "Cyber Day"
+      ],
+      "brand": "Juicy Couture",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/efd1cb9a_09b2bf7c-99de-4835-bc56-beb0ce19724a_sm.webp"
+      ]
+    },
+    {
       "id": "prod-Yb5izg",
       "name": "Necesser marrón monograma floreado",
       "price": 110.0,
@@ -1471,21 +1516,6 @@
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/17acaa09_bfc3db0e-e276-4aa0-b92d-1e0fdc0dfa2b_sm.webp",
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/57094e01_72be35de-f057-4a12-835d-71b3e733c020_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-eQOD9Q",
-      "name": "Splash victoria secret",
-      "price": 65.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0eaec415_ac12eb83-b4f5-4c2a-baf1-1c502f8974e1_sm.webp",
-      "categories": [
-        "Cyber Day"
-      ],
-      "brand": "Otras marcas",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0eaec415_ac12eb83-b4f5-4c2a-baf1-1c502f8974e1_sm.webp"
       ]
     },
     {
