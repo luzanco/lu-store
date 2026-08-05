@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-05T12:05:18.720330-05:00",
-  "count": 110,
+  "updated": "2026-08-05T13:43:17.891599-05:00",
+  "count": 108,
   "products": [
     {
       "id": "prod-VkVCRg",
@@ -948,21 +948,6 @@
       ]
     },
     {
-      "id": "prod-rF-nXg",
-      "name": "Morral blanco con cadena Steve Madden",
-      "price": 170.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d1041c0c_c5a99508-711a-44d6-909b-49bc560941a1_sm.webp",
-      "categories": [
-        "Carteras Steve Madden"
-      ],
-      "brand": "Steve Madden",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d1041c0c_c5a99508-711a-44d6-909b-49bc560941a1_sm.webp"
-      ]
-    },
-    {
       "id": "prod-qQLHBg",
       "name": "Morral floreado",
       "price": 200.0,
@@ -1078,21 +1063,6 @@
       "brand": "Steve Madden",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8976df4a_03a54b54-aff4-4bd1-8d0f-ddcdea7d72de_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-kXT35w",
-      "name": "Morral negro Polo",
-      "price": 110.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bde3034b_feffb1d8-8ad4-41b7-9f43-d9cdbe8039c1_sm.webp",
-      "categories": [
-        "Liquidación"
-      ],
-      "brand": "Otras marcas",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/bde3034b_feffb1d8-8ad4-41b7-9f43-d9cdbe8039c1_sm.webp"
       ]
     },
     {
