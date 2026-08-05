@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-05T16:33:47.002961-05:00",
-  "count": 108,
+  "updated": "2026-08-05T17:38:12.103682-05:00",
+  "count": 111,
   "products": [
     {
       "id": "prod-VkVCRg",
@@ -1231,6 +1231,21 @@
       ]
     },
     {
+      "id": "prod-lvn3gw",
+      "name": "Necesser gues negro",
+      "price": 90.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ec2d9cfb_0ef9b3cc-9e8f-498d-b0a1-8dd857b9a993_sm.webp",
+      "categories": [
+        "Necesser"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ec2d9cfb_0ef9b3cc-9e8f-498d-b0a1-8dd857b9a993_sm.webp"
+      ]
+    },
+    {
       "id": "prod-9Egl3Q",
       "name": "Necesser guess pequeño negro monograma",
       "price": 110.0,
@@ -1486,6 +1501,21 @@
       ]
     },
     {
+      "id": "prod-b5kDOg",
+      "name": "Tote azul marino monograma Tommy",
+      "price": 205.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f5fe257f_7d2beb6f-7eb0-4482-9040-6ee087af194c_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f5fe257f_7d2beb6f-7eb0-4482-9040-6ee087af194c_sm.webp"
+      ]
+    },
+    {
       "id": "prod-3O1tnw",
       "name": "Tote grande negro monograma Guess",
       "price": 265.0,
@@ -1573,6 +1603,21 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a318f53b_6ee78b3c-a963-450c-9d87-b58c78ca0a98_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-phi3xA",
+      "name": "Tote mediana negro monograma 3 compartimentos Tommy",
+      "price": 174.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a1782804_d8832cc4-4903-406c-8157-dfb8ede70907_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a1782804_d8832cc4-4903-406c-8157-dfb8ede70907_sm.webp"
       ]
     },
     {
