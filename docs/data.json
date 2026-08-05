@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-05T17:38:12.103682-05:00",
-  "count": 111,
+  "updated": "2026-08-05T18:34:35.358988-05:00",
+  "count": 113,
   "products": [
     {
       "id": "prod-VkVCRg",
@@ -33,6 +33,21 @@
       ]
     },
     {
+      "id": "prod-apkzxQ",
+      "name": "Baguete negra guess con charms",
+      "price": 225.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8b13bb28_c994365a-d5f6-46cf-a371-241f654d7284_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8b13bb28_c994365a-d5f6-46cf-a371-241f654d7284_sm.webp"
+      ]
+    },
+    {
       "id": "prod-H3tuYQ",
       "name": "Baguete rojo grande Tommy",
       "price": 155.0,
@@ -45,6 +60,21 @@
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f2b5b84_7f9ff6b6-f689-4815-aaf3-42782b3dcf61_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-GU4gGQ",
+      "name": "Baguete tommy crema",
+      "price": 150.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7c70c5a5_e4baff9f-d606-4a82-affc-3cd6e527bb41_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7c70c5a5_e4baff9f-d606-4a82-affc-3cd6e527bb41_sm.webp"
       ]
     },
     {
