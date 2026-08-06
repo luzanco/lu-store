@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-05T18:34:35.358988-05:00",
-  "count": 113,
+  "updated": "2026-08-05T19:57:04.314073-05:00",
+  "count": 117,
   "products": [
     {
       "id": "prod-VkVCRg",
@@ -63,18 +63,33 @@
       ]
     },
     {
-      "id": "prod-GU4gGQ",
-      "name": "Baguete tommy crema",
-      "price": 150.0,
+      "id": "prod-enROZw",
+      "name": "Baguete vainilla con charms",
+      "price": 220.0,
       "status": "Disponible",
       "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7c70c5a5_e4baff9f-d606-4a82-affc-3cd6e527bb41_sm.webp",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc1f7612_0738a6b4-5675-46ce-9f2b-13481e7b32b4_sm.webp",
       "categories": [
-        "Carteras Tommy Hilfiguer"
+        "Carteras Guess"
       ],
-      "brand": "Tommy Hilfiger",
+      "brand": "Guess",
       "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7c70c5a5_e4baff9f-d606-4a82-affc-3cd6e527bb41_sm.webp"
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc1f7612_0738a6b4-5675-46ce-9f2b-13481e7b32b4_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-LIk3mA",
+      "name": "Baguete vainilla limones guess",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/692aa081_6e1f7573-3314-44fb-8895-654b06b69d2b_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/692aa081_6e1f7573-3314-44fb-8895-654b06b69d2b_sm.webp"
       ]
     },
     {
@@ -543,6 +558,21 @@
       ]
     },
     {
+      "id": "prod-ZjNKYQ",
+      "name": "Cartera grande guess rosita",
+      "price": 255.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c736324f_863c6206-5cd8-4584-ba4a-11c7f4a41e8c_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c736324f_863c6206-5cd8-4584-ba4a-11c7f4a41e8c_sm.webp"
+      ]
+    },
+    {
       "id": "prod-f4pdhw",
       "name": "Cartera grande negro guess 3 compartimentos",
       "price": 255.0,
@@ -858,6 +888,21 @@
       ]
     },
     {
+      "id": "prod-YD66Rg",
+      "name": "Lentes negros Guess con estuche",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp",
+      "categories": [
+        "Lentes"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp"
+      ]
+    },
+    {
       "id": "prod-6YHPUg",
       "name": "Lentes negros guess con estuche",
       "price": 210.0,
@@ -885,21 +930,6 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/104c0c75_cb12f09f-91c1-4712-9b14-ebe76bb78be0_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-YD66Rg",
-      "name": "Lentes negros Guess con estuche",
-      "price": 210.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp",
-      "categories": [
-        "Lentes"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp"
       ]
     },
     {
@@ -1096,6 +1126,21 @@
       ]
     },
     {
+      "id": "prod-V7vxWw",
+      "name": "Morral rojo pin osito guess",
+      "price": 200.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8168b04d_0c08e704-bc5f-4b2a-985e-e16a09463e90_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8168b04d_0c08e704-bc5f-4b2a-985e-e16a09463e90_sm.webp"
+      ]
+    },
+    {
       "id": "prod-khtc-g",
       "name": "Morral rojo strap Nautica",
       "price": 130.0,
@@ -1123,6 +1168,19 @@
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/3fa1212f_c99b8523-b3f5-46a2-9a63-6e988e3236ee_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-Vv4k7A",
+      "name": "Morral rosado con pin osito guess",
+      "price": 200.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/50209250_9be40451-b8c3-455f-a83c-9a803a9d1218_sm.webp",
+      "categories": [],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/50209250_9be40451-b8c3-455f-a83c-9a803a9d1218_sm.webp"
       ]
     },
     {
