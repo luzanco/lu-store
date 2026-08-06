@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-05T19:57:04.314073-05:00",
-  "count": 117,
+  "updated": "2026-08-05T23:01:05.620048-05:00",
+  "count": 123,
   "products": [
     {
       "id": "prod-VkVCRg",
@@ -48,6 +48,21 @@
       ]
     },
     {
+      "id": "prod-DcGF6Q",
+      "name": "Baguete raffia steve madden",
+      "price": 175.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e7f7e03b_1928de46-eb5b-4e5b-ac25-4060f6a7e6c6_sm.webp",
+      "categories": [
+        "Carteras Steve Madden"
+      ],
+      "brand": "Steve Madden",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e7f7e03b_1928de46-eb5b-4e5b-ac25-4060f6a7e6c6_sm.webp"
+      ]
+    },
+    {
       "id": "prod-H3tuYQ",
       "name": "Baguete rojo grande Tommy",
       "price": 155.0,
@@ -63,33 +78,18 @@
       ]
     },
     {
-      "id": "prod-enROZw",
-      "name": "Baguete vainilla con charms",
-      "price": 220.0,
+      "id": "prod-oGesBw",
+      "name": "Baguete rosa guess",
+      "price": 225.0,
       "status": "Disponible",
       "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc1f7612_0738a6b4-5675-46ce-9f2b-13481e7b32b4_sm.webp",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/81e8c574_85d3add7-0e2f-401d-9d77-3cb1d609549c_sm.webp",
       "categories": [
         "Carteras Guess"
       ],
       "brand": "Guess",
       "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc1f7612_0738a6b4-5675-46ce-9f2b-13481e7b32b4_sm.webp"
-      ]
-    },
-    {
-      "id": "prod-LIk3mA",
-      "name": "Baguete vainilla limones guess",
-      "price": 210.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/692aa081_6e1f7573-3314-44fb-8895-654b06b69d2b_sm.webp",
-      "categories": [
-        "Carteras Guess"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/692aa081_6e1f7573-3314-44fb-8895-654b06b69d2b_sm.webp"
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/81e8c574_85d3add7-0e2f-401d-9d77-3cb1d609549c_sm.webp"
       ]
     },
     {
@@ -663,6 +663,21 @@
       ]
     },
     {
+      "id": "prod-x-5TMg",
+      "name": "Cartera grande vainilla mas necesser guess",
+      "price": 250.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7bc22d3a_3e4c90b2-51a8-4bf9-98f8-842171749e6b_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7bc22d3a_3e4c90b2-51a8-4bf9-98f8-842171749e6b_sm.webp"
+      ]
+    },
+    {
       "id": "prod-cYiiVg",
       "name": "Cartera grande vainilla monograma",
       "price": 205.0,
@@ -705,6 +720,21 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/44027cbc_6cf6f8aa-f22c-4b85-8dea-ecc8360b01c1_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-lUU3FQ",
+      "name": "Cartera mediana A4 Nautica en crema",
+      "price": 170.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/efd2cb5c_b2de07a2-e0ac-49fa-a257-25b52eab4bf0_sm.webp",
+      "categories": [
+        "Carteras Nautica"
+      ],
+      "brand": "Nautica",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/efd2cb5c_b2de07a2-e0ac-49fa-a257-25b52eab4bf0_sm.webp"
       ]
     },
     {
@@ -888,21 +918,6 @@
       ]
     },
     {
-      "id": "prod-YD66Rg",
-      "name": "Lentes negros Guess con estuche",
-      "price": 210.0,
-      "status": "Disponible",
-      "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp",
-      "categories": [
-        "Lentes"
-      ],
-      "brand": "Guess",
-      "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp"
-      ]
-    },
-    {
       "id": "prod-6YHPUg",
       "name": "Lentes negros guess con estuche",
       "price": 210.0,
@@ -930,6 +945,21 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/104c0c75_cb12f09f-91c1-4712-9b14-ebe76bb78be0_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-YD66Rg",
+      "name": "Lentes negros Guess con estuche",
+      "price": 210.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp",
+      "categories": [
+        "Lentes"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4f6c9ed5_45f8c7c3-667d-4df9-be23-9718044ff2af_sm.webp"
       ]
     },
     {
@@ -1048,6 +1078,51 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b895d9d7_c9ce371a-7834-47eb-bc3b-577b365ecd17_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-vEnAuQ",
+      "name": "Morral keiko Arena kipling",
+      "price": 165.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/27488173_7e92ce2b-61d3-462f-9f92-ae0129d75a9e_sm.webp",
+      "categories": [
+        "Kipling"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/27488173_7e92ce2b-61d3-462f-9f92-ae0129d75a9e_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-75Slqw",
+      "name": "Morral keiko dorado metalizado kipling",
+      "price": 180.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/3243576a_d65f8949-3cd5-4f78-a78d-6a8ba15352f0_sm.webp",
+      "categories": [
+        "Kipling"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/3243576a_d65f8949-3cd5-4f78-a78d-6a8ba15352f0_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-1LUNaA",
+      "name": "Morral keiko verde kipling",
+      "price": 165.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f04997eb_6ddec452-08f3-47b6-bfdc-17f0d7cc1e8f_sm.webp",
+      "categories": [
+        "Kipling"
+      ],
+      "brand": "Otras marcas",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f04997eb_6ddec452-08f3-47b6-bfdc-17f0d7cc1e8f_sm.webp"
       ]
     },
     {
@@ -1601,6 +1676,21 @@
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/f5fe257f_7d2beb6f-7eb0-4482-9040-6ee087af194c_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-JFC2yg",
+      "name": "Tote dorada tommy con cierre",
+      "price": 200.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a8b60d5d_a948469a-b7f1-479c-ac3f-39a94a507090_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/a8b60d5d_a948469a-b7f1-479c-ac3f-39a94a507090_sm.webp"
       ]
     },
     {
