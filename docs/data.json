@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T17:41:04.026318-05:00",
+  "updated": "2026-08-12T18:22:57.538355-05:00",
   "count": 122,
   "products": [
     {
@@ -1265,7 +1265,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ddb1910f_034b4778-f982-45ab-81a0-af024962462a_sm.webp",
-      "categories": [],
+      "categories": [
+        "Muñequeras"
+      ],
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ddb1910f_034b4778-f982-45ab-81a0-af024962462a_sm.webp"
@@ -1278,7 +1280,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2c6af86c_9e6ba642-1f9a-4211-b20f-3b978c3a394b_sm.webp",
-      "categories": [],
+      "categories": [
+        "Muñequeras"
+      ],
       "brand": "Nautica",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2c6af86c_9e6ba642-1f9a-4211-b20f-3b978c3a394b_sm.webp"
