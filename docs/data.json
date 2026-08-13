@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13T14:37:22.833460-05:00",
-  "count": 122,
+  "updated": "2026-08-13T15:09:15.159718-05:00",
+  "count": 129,
   "products": [
     {
       "id": "prod-VkVCRg",
@@ -30,6 +30,36 @@
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4d9f3d20_2a855a16-ba4f-434d-a8ba-0166f56f1eb4_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-UirNvg",
+      "name": "Baguete guess verde oscuro",
+      "price": 215.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/14cc97c5_ebe63ee5-c657-470a-8113-f71a3aafc4b0_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/14cc97c5_ebe63ee5-c657-470a-8113-f71a3aafc4b0_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-71L0ew",
+      "name": "Baguete guess verde oscuro",
+      "price": 215.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4ab5cdf1_a82edfcd-e261-4913-b2e5-0afae2c45d8a_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4ab5cdf1_a82edfcd-e261-4913-b2e5-0afae2c45d8a_sm.webp"
       ]
     },
     {
@@ -285,6 +315,36 @@
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/df8e038d_56a146ac-4b2e-454d-949b-f1d3a9b3b21c_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-Rw5YAw",
+      "name": "Billetera roja tommy",
+      "price": 120.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2b3faa5e_e275938d-15c8-402a-9b99-4b92fb5e43e7_sm.webp",
+      "categories": [
+        "Billeteras"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/2b3faa5e_e275938d-15c8-402a-9b99-4b92fb5e43e7_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-AuwSoA",
+      "name": "Billetera roja tommy con cierre",
+      "price": 115.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/eb43b5c6_c909dac5-8a2d-4aae-afcb-8bbe2a7aa505_sm.webp",
+      "categories": [
+        "Billeteras"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/eb43b5c6_c909dac5-8a2d-4aae-afcb-8bbe2a7aa505_sm.webp"
       ]
     },
     {
@@ -693,6 +753,21 @@
       ]
     },
     {
+      "id": "prod-Pem2Hg",
+      "name": "Cartera guess negra ejecutiva",
+      "price": 270.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ec18efb1_9c7bbc09-31c8-448c-880c-8084c415226e_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ec18efb1_9c7bbc09-31c8-448c-880c-8084c415226e_sm.webp"
+      ]
+    },
+    {
       "id": "prod-0d71IQ",
       "name": "Cartera marrón monograma guess",
       "price": 245.0,
@@ -993,6 +1068,21 @@
       ]
     },
     {
+      "id": "prod-bzrqiA",
+      "name": "Mochila marron monograma Tommy A4",
+      "price": 203.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f4ebbf7_80c76484-8e86-4ea1-bf6d-b79f42975495_sm.webp",
+      "categories": [
+        "Mochilas"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f4ebbf7_80c76484-8e86-4ea1-bf6d-b79f42975495_sm.webp"
+      ]
+    },
+    {
       "id": "prod-j68h9w",
       "name": "Mochila rosa monograma Guess",
       "price": 230.0,
@@ -1183,6 +1273,21 @@
       "brand": "Steve Madden",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8976df4a_03a54b54-aff4-4bd1-8d0f-ddcdea7d72de_sm.webp"
+      ]
+    },
+    {
+      "id": "prod-Z3yp0w",
+      "name": "Morral negro monograma tommy",
+      "price": 145.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0408c85a_5f8a8602-b673-45f3-a9e0-0c97dec496aa_sm.webp",
+      "categories": [
+        "Carteras Tommy Hilfiguer"
+      ],
+      "brand": "Tommy Hilfiger",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0408c85a_5f8a8602-b673-45f3-a9e0-0c97dec496aa_sm.webp"
       ]
     },
     {
