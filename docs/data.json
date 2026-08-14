@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-14T07:40:36.161324-05:00",
-  "count": 129,
+  "updated": "2026-08-14T09:02:04.647174-05:00",
+  "count": 130,
   "products": [
     {
       "id": "prod-VkVCRg",
@@ -33,6 +33,21 @@
       ]
     },
     {
+      "id": "prod-71L0ew",
+      "name": "Baguete guess verde oscuro",
+      "price": 215.0,
+      "status": "Disponible",
+      "status_css": "ok",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4ab5cdf1_a82edfcd-e261-4913-b2e5-0afae2c45d8a_sm.webp",
+      "categories": [
+        "Carteras Guess"
+      ],
+      "brand": "Guess",
+      "images": [
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4ab5cdf1_a82edfcd-e261-4913-b2e5-0afae2c45d8a_sm.webp"
+      ]
+    },
+    {
       "id": "prod-UirNvg",
       "name": "Baguete guess verde oscuro",
       "price": 215.0,
@@ -48,18 +63,18 @@
       ]
     },
     {
-      "id": "prod-71L0ew",
-      "name": "Baguete guess verde oscuro",
-      "price": 215.0,
+      "id": "prod-1BiHNw",
+      "name": "Baguete marron guess",
+      "price": 200.0,
       "status": "Disponible",
       "status_css": "ok",
-      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4ab5cdf1_a82edfcd-e261-4913-b2e5-0afae2c45d8a_sm.webp",
+      "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4ab9b795_87873c27-7b3b-4084-a04e-f96ef4b36e65_sm.webp",
       "categories": [
         "Carteras Guess"
       ],
       "brand": "Guess",
       "images": [
-        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4ab5cdf1_a82edfcd-e261-4913-b2e5-0afae2c45d8a_sm.webp"
+        "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4ab9b795_87873c27-7b3b-4084-a04e-f96ef4b36e65_sm.webp"
       ]
     },
     {
