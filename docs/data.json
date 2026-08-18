@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T04:51:49.842514-05:00",
+  "updated": "2026-08-18T05:14:17.331660-05:00",
   "count": 130,
   "products": [
     {
@@ -864,7 +864,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c81117ff_659580f5-b525-46c3-ae7c-772d41db65b5_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/c81117ff_659580f5-b525-46c3-ae7c-772d41db65b5_sm.webp"
@@ -892,7 +894,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d27b1680_057f41a7-f500-4a79-b7d1-cf66f90e7ab2_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/d27b1680_057f41a7-f500-4a79-b7d1-cf66f90e7ab2_sm.webp"
@@ -905,7 +909,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/41f862ea_c22a0012-8e44-4304-82a0-bc153e3b7cbe_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Otras marcas",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/41f862ea_c22a0012-8e44-4304-82a0-bc153e3b7cbe_sm.webp"
@@ -918,7 +924,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc3cc732_3c138c65-cb7c-4bd7-b093-362cd19a21a0_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/dc3cc732_3c138c65-cb7c-4bd7-b093-362cd19a21a0_sm.webp"
@@ -931,7 +939,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/03e599e5_01315233-475d-49eb-9ee2-0c6f638ed5aa_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/03e599e5_01315233-475d-49eb-9ee2-0c6f638ed5aa_sm.webp"
@@ -944,7 +954,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/652a15f6_9b0d1570-e781-49b6-8b9b-997eae901cec_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Otras marcas",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/652a15f6_9b0d1570-e781-49b6-8b9b-997eae901cec_sm.webp"
@@ -1418,7 +1430,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4a69a91a_2e80bef9-5aaf-4609-a822-1eacce0d6f59_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/4a69a91a_2e80bef9-5aaf-4609-a822-1eacce0d6f59_sm.webp"
@@ -1431,7 +1445,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/14985223_36c7dcf0-7ef9-43cf-b87a-6b6fb924740d_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/14985223_36c7dcf0-7ef9-43cf-b87a-6b6fb924740d_sm.webp"
@@ -1444,7 +1460,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0303862c_71a4f2a9-e1c1-42cb-bc49-9f243ce8ea68_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/0303862c_71a4f2a9-e1c1-42cb-bc49-9f243ce8ea68_sm.webp"
@@ -1457,7 +1475,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/1aa71412_a4db88df-6353-4544-8e31-2956b8fa673e_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/1aa71412_a4db88df-6353-4544-8e31-2956b8fa673e_sm.webp"
@@ -1470,7 +1490,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7a998849_26677e98-02b9-4aef-89a5-ece240cd9f8c_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/7a998849_26677e98-02b9-4aef-89a5-ece240cd9f8c_sm.webp"
@@ -1483,7 +1505,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ec2d9cfb_0ef9b3cc-9e8f-498d-b0a1-8dd857b9a993_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Otras marcas",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/ec2d9cfb_0ef9b3cc-9e8f-498d-b0a1-8dd857b9a993_sm.webp"
@@ -1496,7 +1520,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/73ada1f9_4035b8f5-2dbb-4ae7-b973-1cfe9004f9f3_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/73ada1f9_4035b8f5-2dbb-4ae7-b973-1cfe9004f9f3_sm.webp"
@@ -1524,7 +1550,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e3ef75e1_d98bd708-ca26-423a-9240-848d67b3ea80_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Otras marcas",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/e3ef75e1_d98bd708-ca26-423a-9240-848d67b3ea80_sm.webp"
@@ -1537,7 +1565,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/217e6b70_1f46476e-4806-48b7-bfaa-b4b98f2485bf_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Otras marcas",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/217e6b70_1f46476e-4806-48b7-bfaa-b4b98f2485bf_sm.webp"
@@ -1565,7 +1595,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/48674d13_bb50d52e-901a-4022-93b4-cd7c961a9e5c_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/48674d13_bb50d52e-901a-4022-93b4-cd7c961a9e5c_sm.webp"
@@ -1578,7 +1610,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6801e317_49040cdb-9186-4432-853f-e36a5fbcb8c3_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/6801e317_49040cdb-9186-4432-853f-e36a5fbcb8c3_sm.webp"
@@ -1591,7 +1625,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1c64ebb_94eadf34-7f7a-4005-9fa9-1de9d937a6a3_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Otras marcas",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/b1c64ebb_94eadf34-7f7a-4005-9fa9-1de9d937a6a3_sm.webp"
@@ -1604,7 +1640,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/65129d14_e2c1cc3c-8dab-48c5-8b7c-5bb5575146d6_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/65129d14_e2c1cc3c-8dab-48c5-8b7c-5bb5575146d6_sm.webp"
@@ -1617,7 +1655,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/216bbf28_b8bb0a97-48ed-4c1e-84b9-3560a528fbd2_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/216bbf28_b8bb0a97-48ed-4c1e-84b9-3560a528fbd2_sm.webp"
@@ -1630,7 +1670,9 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/685dc254_abf4749a-c4dc-4dd3-a069-7c0a470bf792_sm.webp",
-      "categories": [],
+      "categories": [
+        "Necesser"
+      ],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/685dc254_abf4749a-c4dc-4dd3-a069-7c0a470bf792_sm.webp"
