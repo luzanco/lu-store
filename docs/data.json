@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T14:53:59.376054-05:00",
+  "updated": "2026-08-21T15:11:24.646637-05:00",
   "count": 130,
   "products": [
     {
@@ -1059,9 +1059,7 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9c3be765_88ea05d0-44e2-4462-a2ab-15012f5fc729_sm.webp",
-      "categories": [
-        "Mochilas"
-      ],
+      "categories": [],
       "brand": "Guess",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/9c3be765_88ea05d0-44e2-4462-a2ab-15012f5fc729_sm.webp"
@@ -1074,9 +1072,7 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/eebe628c_f9c1708c-9833-4458-9a01-c42034c6302e_sm.webp",
-      "categories": [
-        "Mochilas"
-      ],
+      "categories": [],
       "brand": "Karl Lagerfeld",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/eebe628c_f9c1708c-9833-4458-9a01-c42034c6302e_sm.webp"
@@ -1089,9 +1085,7 @@
       "status": "Disponible",
       "status_css": "ok",
       "image": "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f4ebbf7_80c76484-8e86-4ea1-bf6d-b79f42975495_sm.webp",
-      "categories": [
-        "Mochilas"
-      ],
+      "categories": [],
       "brand": "Tommy Hilfiger",
       "images": [
         "https://arlessa-prod.nyc3.cdn.digitaloceanspaces.com/7d8781cc-914c-4c55-818c-442be0a0821a/images/variants/8f4ebbf7_80c76484-8e86-4ea1-bf6d-b79f42975495_sm.webp"
